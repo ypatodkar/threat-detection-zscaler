@@ -10,8 +10,36 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware
-app.use(cors());
+// CORS Configuration - Allow all origins and necessary headers
+const corsOptions = {
+  origin: '*', // Allow all origins (you can restrict this in production)
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: [
+    'Content-Type',
+    'Authorization',
+    'x-user-id',
+    'X-Requested-With',
+    'Accept',
+    'Origin'
+  ],
+  credentials: false, // Set to false when origin is '*'
+  preflightContinue: false,
+  optionsSuccessStatus: 204
+};
+
+// CORS middleware - must be before other middleware
+app.use(cors(corsOptions));
+
+// Explicit OPTIONS handler for all routes (before other routes)
+app.options('*', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, x-user-id, X-Requested-With, Accept, Origin');
+  res.header('Access-Control-Max-Age', '86400');
+  res.sendStatus(204);
+});
+
+// Other middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -27,13 +55,14 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-// Export app for serverless handler
+// Export app for serverless handler (if needed)
 export default app;
 
-// Only start server if not in Lambda environment
-if (process.env.AWS_LAMBDA_FUNCTION_NAME === undefined) {
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-  });
-}
+// Start server (Railway, Render, etc. will use PORT env var)
+// Lambda will not execute this (it uses serverless-handler.js)
+const serverPort = process.env.PORT || PORT;
+app.listen(serverPort, '0.0.0.0', () => {
+  console.log(`Server running on port ${serverPort}`);
+  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+});
 
