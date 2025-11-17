@@ -1,0 +1,94 @@
+.ai-docs-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ai-docs-page h2 {
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.doc-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.doc-section h3 {
+  color: #667eea;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.doc-section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.doc-section ul {
+  margin-left: 2rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+.doc-section li {
+  margin-bottom: 0.5rem;
+}
+
+.field-table {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.field-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.field-table thead {
+  background: #2c3e50;
+  color: white;
+}
+
+.field-table th,
+.field-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.field-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.threat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.threat-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 5px;
+  border-left: 3px solid #667eea;
+}
+
+.threat-name {
+  font-weight: 600;
+  color: #2c3e50;
+  min-width: 120px;
+}
+
+.threat-desc {
+  color: #666;
+}
+
+
+

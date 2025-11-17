@@ -1,0 +1,19 @@
+1731529200 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529260 10.1.1.25 john.doe https://google.com ALLOW 200 500 2000 None
+1731529320 10.1.1.25 john.doe https://suspicious-site.com BLOCK 403 800 3000 Phishing
+1731529380 10.1.1.26 jane.smith https://example.com ALLOW 200 300 1500 None
+1731529440 10.1.1.25 john.doe https://test.com/union%20select%20*%20from%20users BLOCK 403 600 2500 None
+1731529500 10.1.1.25 john.doe https://another-site.com ALLOW 200 400 1800 None
+1731529560 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529620 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529680 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529740 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529800 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529860 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529920 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731529980 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731530040 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+1731530100 10.1.1.25 john.doe https://malicious-site.com BLOCK 403 1200 5400 Malware
+
+
+
