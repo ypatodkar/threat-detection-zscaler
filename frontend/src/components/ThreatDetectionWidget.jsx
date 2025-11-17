@@ -234,7 +234,9 @@ function ThreatDetectionWidget() {
                 </div>
                 <div className="tree-connectors">
                   <div className="tree-connector left"></div>
+                  <div className="tree-connector right-top"></div>
                   <div className="tree-connector right"></div>
+                  <div className="tree-connector left-top"></div>
                 </div>
               </div>
 
@@ -274,7 +276,7 @@ function ThreatDetectionWidget() {
           </div>
 
           {/* Bottom Left Panel: Top 3 Users */}
-          <div className="dashboard-panel bottom-left-panel">
+          <div className="dashboard-panel bottom-left-panel-2">
             <div className="panel-title">Top 3 Users</div>
             <div className="panel-content">
               {stats.topUsers.length > 0 ? (

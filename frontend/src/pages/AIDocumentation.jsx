@@ -3,14 +3,23 @@ import './AIDocumentation.css';
 function AIDocumentation() {
   return (
     <div className="ai-docs-page">
-      <h2>AI Usage Documentation</h2>
+      <h2>Anomaly Detection Documentation</h2>
 
       <section className="doc-section">
-        <h3>AI-Generated Anomaly Rules</h3>
+        <h3>Overview</h3>
         <p>
-          The threat detection system uses AI-assisted rule generation to identify 
-          anomalous patterns in web security logs. The following rules were developed 
-          with AI assistance to detect potential security threats:
+          The Threat Detection System is a comprehensive SOC (Security Operations Center) 
+          management platform that analyzes security logs from multiple sources. The system 
+          uses rule-based anomaly detection to identify potential security threats and 
+          suspicious patterns in both Zscaler Web Security logs and Apache/Nginx access logs.
+        </p>
+      </section>
+
+      <section className="doc-section">
+        <h3>Web Security Logs - Anomaly Detection Rules</h3>
+        <p>
+          The system analyzes Zscaler Web Security logs using the following AI-assisted 
+          anomaly detection rules:
         </p>
         <ul>
           <li>
@@ -39,10 +48,40 @@ function AIDocumentation() {
       </section>
 
       <section className="doc-section">
-        <h3>Field Extraction Assistance</h3>
+        <h3>Access Logs - Anomaly Detection Rules</h3>
         <p>
-          AI was used to assist in parsing the Zscaler Web Security log format. 
-          The parser extracts the following fields from space-separated log entries:
+          For Apache/Nginx access logs, the system uses specialized rules adapted for 
+          HTTP access patterns:
+        </p>
+        <ul>
+          <li>
+            <strong>Excessive Traffic from One IP:</strong> Detects when a single IP 
+            generates more than 100 requests in 5 minutes. Confidence: 0.85
+          </li>
+          <li>
+            <strong>Repeated 4xx/5xx Errors:</strong> Identifies when 20 or more error 
+            responses occur within 10 minutes. Confidence: 0.70
+          </li>
+          <li>
+            <strong>Unusual URL Pattern:</strong> Detects SQL injection attempts, encoded 
+            payloads (%00, SQL keywords), and suspicious URL patterns. Confidence: 0.80
+          </li>
+          <li>
+            <strong>Suspicious User-Agent:</strong> Flags empty user agents or known 
+            scanner/bot signatures (sqlmap, nikto, nmap, etc.). Confidence: 0.75 (scanners) / 0.60 (empty)
+          </li>
+          <li>
+            <strong>Unusual HTTP Method:</strong> Detects non-standard HTTP methods 
+            (other than GET, POST, HEAD, OPTIONS). Confidence: 0.65
+          </li>
+        </ul>
+      </section>
+
+      <section className="doc-section">
+        <h3>Web Security Logs - Field Extraction</h3>
+        <p>
+          The system parses Zscaler Web Security logs (space-separated format) and extracts 
+          the following fields:
         </p>
         <div className="field-table">
           <table>
@@ -110,6 +149,77 @@ function AIDocumentation() {
       </section>
 
       <section className="doc-section">
+        <h3>Access Logs - Field Extraction</h3>
+        <p>
+          The system also supports Apache/Nginx Common Log Format (CLF) and Extended Log 
+          Format (ELF), extracting the following fields:
+        </p>
+        <div className="field-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Description</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>timestamp</td>
+                <td>Request timestamp (Apache format)</td>
+                <td>Date</td>
+              </tr>
+              <tr>
+                <td>src_ip</td>
+                <td>Client IP address</td>
+                <td>String</td>
+              </tr>
+              <tr>
+                <td>user</td>
+                <td>Remote user (often '-')</td>
+                <td>String</td>
+              </tr>
+              <tr>
+                <td>http_method</td>
+                <td>HTTP method (GET, POST, etc.)</td>
+                <td>String</td>
+              </tr>
+              <tr>
+                <td>url_path</td>
+                <td>Requested URL path</td>
+                <td>String</td>
+              </tr>
+              <tr>
+                <td>http_version</td>
+                <td>HTTP protocol version</td>
+                <td>String</td>
+              </tr>
+              <tr>
+                <td>status_code</td>
+                <td>HTTP response status code</td>
+                <td>Number</td>
+              </tr>
+              <tr>
+                <td>response_size</td>
+                <td>Response size in bytes</td>
+                <td>Number</td>
+              </tr>
+              <tr>
+                <td>referer</td>
+                <td>HTTP referer header</td>
+                <td>String</td>
+              </tr>
+              <tr>
+                <td>user_agent</td>
+                <td>User agent string</td>
+                <td>String</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="doc-section">
         <h3>Threat Classification Mapping</h3>
         <p>
           The system maps Zscaler threat classifications to standardized categories 
@@ -152,16 +262,37 @@ function AIDocumentation() {
       </section>
 
       <section className="doc-section">
-        <h3>System Architecture</h3>
+        <h3>Key Features</h3>
         <p>
-          The threat detection system was built with AI assistance for:
+          The platform includes the following features:
         </p>
         <ul>
-          <li>Database schema design and optimization</li>
-          <li>API endpoint structure and error handling</li>
-          <li>Frontend component architecture</li>
-          <li>User interface design and UX patterns</li>
-          <li>Code organization and best practices</li>
+          <li><strong>Multi-Log Type Support:</strong> Handles both Zscaler Web Security logs and Apache/Nginx access logs</li>
+          <li><strong>User Authentication:</strong> Secure login/signup with bcrypt password hashing</li>
+          <li><strong>User Profiles:</strong> Profile management with name, email, and profile picture upload</li>
+          <li><strong>User-Specific Data:</strong> All logs are filtered by the logged-in user for data isolation</li>
+          <li><strong>Interactive Dashboards:</strong> Separate dashboard widgets for Web Security and Access Logs with real-time statistics</li>
+          <li><strong>Advanced Search:</strong> Column-specific search with 300ms debounce for optimal performance</li>
+          <li><strong>Anomaly Highlighting:</strong> Visual indicators for anomalous entries with confidence scores</li>
+          <li><strong>Clickable Metrics:</strong> Dashboard metrics link directly to filtered event views</li>
+          <li><strong>Database Optimization:</strong> Indexed columns for fast prefix searches using text_pattern_ops</li>
+          <li><strong>Responsive Design:</strong> Dark theme UI with collapsible sidebar navigation</li>
+        </ul>
+      </section>
+
+      <section className="doc-section">
+        <h3>System Architecture</h3>
+        <p>
+          The threat detection system architecture:
+        </p>
+        <ul>
+          <li><strong>Backend:</strong> Node.js/Express with PostgreSQL database</li>
+          <li><strong>Frontend:</strong> React with Vite, React Router for navigation</li>
+          <li><strong>Database:</strong> PostgreSQL with separate tables for web_logs and access_logs</li>
+          <li><strong>Authentication:</strong> Session-based with localStorage for client-side state</li>
+          <li><strong>File Upload:</strong> Multer for handling log file uploads</li>
+          <li><strong>Anomaly Detection:</strong> Rule-based engine with configurable confidence scores</li>
+          <li><strong>Search Optimization:</strong> PostgreSQL ILIKE queries with text_pattern_ops indexes</li>
         </ul>
       </section>
     </div>

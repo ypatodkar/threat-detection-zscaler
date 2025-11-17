@@ -1,41 +1,56 @@
 .ai-docs-page {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 2rem;
+  background-color: #0b1015;
+  color: #e0e0e0;
+  min-height: calc(100vh - 60px);
 }
 
 .ai-docs-page h2 {
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(74, 157, 151, 0.5);
 }
 
 .doc-section {
-  background: white;
+  background: #121923;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(102, 126, 234, 0.2);
   margin-bottom: 2rem;
 }
 
 .doc-section h3 {
-  color: #667eea;
+  color: #73fff5;
   margin-bottom: 1rem;
   font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.3);
+  padding-bottom: 0.5rem;
 }
 
 .doc-section p {
-  color: #666;
+  color: #d7d7d7;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
 
 .doc-section ul {
   margin-left: 2rem;
-  color: #666;
+  color: #d7d7d7;
   line-height: 1.8;
 }
 
 .doc-section li {
   margin-bottom: 0.5rem;
+}
+
+.doc-section li strong {
+  color: #73fff5;
 }
 
 .field-table {
@@ -46,22 +61,41 @@
 .field-table table {
   width: 100%;
   border-collapse: collapse;
+  background: #0d1218;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .field-table thead {
-  background: #2c3e50;
-  color: white;
+  background: #121923;
+  color: #f9f9f9;
 }
 
-.field-table th,
+.field-table th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.85rem;
+  color: #73fff5;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.3);
+}
+
 .field-table td {
   padding: 0.75rem;
   text-align: left;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgba(102, 126, 234, 0.1);
+  color: #d7d7d7;
+}
+
+.field-table tbody tr {
+  background: #0d1218;
+  transition: background 0.2s;
 }
 
 .field-table tbody tr:hover {
-  background: #f8f9fa;
+  background: #1a2430;
 }
 
 .threat-list {
@@ -75,20 +109,23 @@
   display: flex;
   gap: 1rem;
   padding: 1rem;
-  background: #f8f9fa;
+  background: rgba(26, 31, 46, 0.5);
   border-radius: 5px;
-  border-left: 3px solid #667eea;
+  border-left: 3px solid rgba(102, 126, 234, 0.5);
+  transition: all 0.3s;
+}
+
+.threat-item:hover {
+  background: rgba(26, 31, 46, 0.8);
+  border-left-color: #73fff5;
 }
 
 .threat-name {
   font-weight: 600;
-  color: #2c3e50;
+  color: #73fff5;
   min-width: 120px;
 }
 
 .threat-desc {
-  color: #666;
+  color: #d7d7d7;
 }
-
-
-

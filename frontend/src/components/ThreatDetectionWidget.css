@@ -13,13 +13,13 @@
 
 .widget-header {
   padding: 1.5rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #1b2430;
   color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .threat-widget.dark-theme .widget-header {
-  background: linear-gradient(135deg, #1a1f2e 0%, #2d1b3d 100%);
+  background: linear-gradient(135deg, #07090e 0%, #2d1b3d 100%);
   border-bottom: 1px solid rgba(102, 126, 234, 0.3);
 }
 
@@ -32,7 +32,7 @@
 
 .widget-content {
   padding: 2rem;
-  background: #f8f9fa;
+  background: #1b2430;
 }
 
 .threat-widget.dark-theme .widget-content {
@@ -91,7 +91,7 @@
   grid-row: 2;
 }
 
-.bottom-left-panel {
+.bottom-left-panel-2 {
   grid-column: 1;
   grid-row: 2;
 }

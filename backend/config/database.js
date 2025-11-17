@@ -11,6 +11,9 @@ const pool = new Pool({
   database: process.env.DB_NAME || 'threat_detection',
   user: process.env.DB_USER || 'postgres',
   password: process.env.DB_PASSWORD || 'postgres',
+  ssl: process.env.DB_HOST && process.env.DB_HOST !== 'localhost' ? {
+    rejectUnauthorized: false // For RDS, we accept the server's certificate
+  } : false, // No SSL for localhost
 });
 
 export default pool;

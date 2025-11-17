@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation, Outlet, useNavigate } from 'react-router-dom';
-import { FaChartBar, FaUpload, FaList, FaRobot, FaSignOutAlt } from 'react-icons/fa';
+import { FaChartBar, FaUpload, FaTable, FaNetworkWired, FaRobot, FaSignOutAlt } from 'react-icons/fa';
 import './Dashboard.css';
 
 function Dashboard({ onLogout, children }) {
@@ -103,8 +103,16 @@ function Dashboard({ onLogout, children }) {
             className={`nav-item ${isActive('/events') ? 'active' : ''}`}
             title={isCollapsed ? 'Events' : ''}
           >
-            <span className="nav-icon"><FaList /></span>
+            <span className="nav-icon"><FaTable /></span>
             {!isCollapsed && <span className="nav-text">Events</span>}
+          </Link>
+          <Link 
+            to="/access-logs" 
+            className={`nav-item ${isActive('/access-logs') ? 'active' : ''}`}
+            title={isCollapsed ? 'Access Logs' : ''}
+          >
+            <span className="nav-icon"><FaNetworkWired /></span>
+            {!isCollapsed && <span className="nav-text">Access Logs</span>}
           </Link>
           <Link 
             to="/ai-docs" 

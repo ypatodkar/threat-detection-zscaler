@@ -85,7 +85,7 @@ function generateLogFile(outputPath, count = 1000) {
 }
 
 // Get output path from command line or use default
-const outputPath = process.argv[2] || path.join(__dirname, '../../synthetic-logs-1000.txt');
+const outputPath = process.argv[2] || path.join(__dirname, '../../test-logs/synthetic-logs-1000.txt');
 const count = parseInt(process.argv[3]) || 1000;
 
 generateLogFile(outputPath, count);

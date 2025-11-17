@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import authRoutes from './routes/auth.js';
 import logRoutes from './routes/logs.js';
+import accessLogRoutes from './routes/accessLogs.js';
 
 dotenv.config();
 
@@ -14,21 +15,25 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files for profile pictures
-app.use('/uploads/profiles', express.static('uploads/profiles'));
+// Note: File storage is disabled - files are processed in memory only
 
 // Routes
 app.use('/auth', authRoutes);
 app.use('/logs', logRoutes);
+app.use('/access-logs', accessLogRoutes);
 
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+// Export app for serverless handler
+export default app;
 
-
+// Only start server if not in Lambda environment
+if (process.env.AWS_LAMBDA_FUNCTION_NAME === undefined) {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
 

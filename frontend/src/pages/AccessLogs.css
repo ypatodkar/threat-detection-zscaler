@@ -1,4 +1,4 @@
-.events-page {
+.access-logs-page {
   width: 100%;
   padding: 2rem;
   background-color: #0b1015;
@@ -6,7 +6,7 @@
   min-height: calc(100vh - 60px);
 }
 
-.events-page h2 {
+.access-logs-page h2 {
   margin-bottom: 0.5rem;
   color: #ffffff;
 }
@@ -92,6 +92,7 @@
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
+  margin-bottom: 1rem;
   transition: background 0.3s;
   justify-self: start;
 }
@@ -100,118 +101,155 @@
   background: #c0392b;
 }
 
-.results-info {
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  background: rgba(26, 31, 46, 0.85);
+.error-message {
+  color: #e74c3c;
+  padding: 1rem;
+  background: rgba(231, 76, 60, 0.1);
+  border: 1px solid rgba(231, 76, 60, 0.3);
   border-radius: 5px;
-  color: #aaa;
-  font-size: 0.9rem;
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  margin-bottom: 1rem;
 }
 
-.no-results {
+.loading {
   text-align: center;
-  padding: 3rem;
-  color: #999;
-  font-style: italic;
+  padding: 2rem;
+  color: #aaa;
 }
 
-.table-container {
+.access-logs-table-container {
+  overflow-x: auto;
   background: #121923;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  overflow-x: auto;
-  margin-bottom: 1rem;
   border: 1px solid rgba(102, 126, 234, 0.2);
 }
 
-.events-table {
+.access-logs-table {
   width: 100%;
   border-collapse: collapse;
+  font-size: 0.9rem;
 }
 
-.events-table thead {
+.access-logs-table thead {
   background: #121923;
-  color: #f9f9f9;
 }
 
-.events-table th {
+.access-logs-table th {
   padding: 1rem;
   text-align: left;
   font-weight: 600;
-  font-size: 0.9rem;
   color: #f9f9f9;
   border-bottom: 2px solid rgba(102, 126, 234, 0.3);
 }
 
-.events-table td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid rgba(102, 126, 234, 0.1);
-  font-size: 0.9rem;
-  color: #d7d7d7;
-}
-
-.events-table tbody tr {
+.access-logs-table tbody tr {
   background: #0d1218;
+  border-bottom: 1px solid rgba(102, 126, 234, 0.1);
   transition: background 0.2s;
 }
 
-.events-table tbody tr:hover {
+.access-logs-table tbody tr:hover {
   background: #1a2430;
 }
 
-.events-table tbody tr.anomaly-row {
+.access-logs-table tbody tr.anomaly-row {
   border-left: 4px solid #000000;
   background: #0d1218;
 }
 
-.events-table tbody tr.anomaly-row:hover {
+.access-logs-table tbody tr.anomaly-row:hover {
   background: #323b47;
 }
 
-.url-cell a {
-  color: #667eea;
-  text-decoration: none;
+.access-logs-table td {
+  padding: 0.75rem 1rem;
+  color: #d7d7d7;
+}
+
+.url-cell {
   max-width: 200px;
-  display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.url-cell a:hover {
-  text-decoration: underline;
-  color: #73fff5;
+.url-cell a {
+  color: #667eea;
+  text-decoration: none;
 }
 
-.action-badge {
+.url-cell a:hover {
+  color: #73fff5;
+  text-decoration: underline;
+}
+
+.user-agent-cell {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.method-badge {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.8rem;
   font-weight: 600;
 }
 
-.action-badge.allow {
+.method-badge.get {
   background: rgba(46, 204, 113, 0.2);
   color: #2ecc71;
   border: 1px solid rgba(46, 204, 113, 0.3);
 }
 
-.action-badge.block {
+.method-badge.post {
+  background: rgba(243, 156, 18, 0.2);
+  color: #f39c12;
+  border: 1px solid rgba(243, 156, 18, 0.3);
+}
+
+.method-badge.put {
+  background: rgba(52, 152, 219, 0.2);
+  color: #3498db;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+.method-badge.delete {
   background: rgba(231, 76, 60, 0.2);
   color: #e74c3c;
   border: 1px solid rgba(231, 76, 60, 0.3);
 }
 
-.threat-badge {
+.status-badge {
   padding: 0.25rem 0.5rem;
-  background: rgba(243, 156, 18, 0.2);
-  color: #f39c12;
   border-radius: 4px;
   font-size: 0.8rem;
   font-weight: 600;
+}
+
+.status-badge.status-2xx {
+  background: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+  border: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.status-badge.status-3xx {
+  background: rgba(52, 152, 219, 0.2);
+  color: #3498db;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+.status-badge.status-4xx {
+  background: rgba(243, 156, 18, 0.2);
+  color: #f39c12;
   border: 1px solid rgba(243, 156, 18, 0.3);
+}
+
+.status-badge.status-5xx {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+  border: 1px solid rgba(231, 76, 60, 0.3);
 }
 
 .anomaly-badge {
@@ -225,12 +263,18 @@
   border: 1px solid rgba(231, 76, 60, 0.3);
 }
 
+.no-data {
+  text-align: center;
+  padding: 2rem;
+  color: #aaa;
+}
+
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding: 1rem;
   background: #121923;
   border-radius: 10px;
@@ -238,7 +282,7 @@
   border: 1px solid rgba(102, 126, 234, 0.2);
 }
 
-.page-button {
+.pagination button {
   padding: 0.5rem 1rem;
   background: rgba(102, 126, 234, 0.3);
   color: white;
@@ -249,33 +293,18 @@
   transition: all 0.3s;
 }
 
-.page-button:hover:not(:disabled) {
+.pagination button:hover:not(:disabled) {
   background: rgba(102, 126, 234, 0.5);
   border-color: rgba(102, 126, 234, 0.7);
 }
 
-.page-button:disabled {
+.pagination button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.page-info {
+.pagination span {
   color: #aaa;
-  font-weight: 500;
-}
-
-.loading {
-  text-align: center;
-  padding: 2rem;
-  color: #aaa;
-}
-
-.error-message {
-  color: #e74c3c;
-  padding: 1rem;
-  background: rgba(231, 76, 60, 0.1);
-  border: 1px solid rgba(231, 76, 60, 0.3);
-  border-radius: 5px;
-  margin-bottom: 1rem;
+  font-weight: 600;
 }
 

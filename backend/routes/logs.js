@@ -12,24 +12,12 @@ const __dirname = path.dirname(__filename);
 
 const router = express.Router();
 
-// Configure multer for file uploads
-const uploadDir = path.join(__dirname, '../uploads');
-if (!fs.existsSync(uploadDir)) {
-  fs.mkdirSync(uploadDir, { recursive: true });
-}
-
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, uploadDir);
-  },
-  filename: (req, file, cb) => {
-    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-    cb(null, file.fieldname + '-' + uniqueSuffix + path.extname(file.originalname));
-  }
-});
-
+// Configure multer for file uploads (memory storage - no file saving)
 const upload = multer({ 
-  storage: storage,
+  storage: multer.memoryStorage(), // Store file in memory instead of disk
+  limits: {
+    fileSize: 50 * 1024 * 1024 // 50MB limit
+  },
   fileFilter: (req, file, cb) => {
     const allowedExtensions = ['.log', '.txt'];
     const ext = path.extname(file.originalname).toLowerCase();
@@ -51,8 +39,8 @@ router.post('/upload', upload.single('logfile'), async (req, res) => {
     // Get user ID from request header or body
     const userId = req.headers['x-user-id'] || req.body.userId || null;
 
-    const filePath = req.file.path;
-    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    // Read file from memory buffer (no file system access needed)
+    const fileContent = req.file.buffer.toString('utf-8');
 
     // Parse the log file
     const parsedLogs = parseLogFile(fileContent);

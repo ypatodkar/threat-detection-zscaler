@@ -1,7 +1,7 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
+# Note: package-lock.json should be committed for Amplify builds
+# yarn.lock
 
 # Environment variables
 .env
@@ -12,10 +12,19 @@ yarn.lock
 dist/
 build/
 *.log
+*.zip
+
+# Lambda build artifacts
+backend/lambda-package/
+backend/threat-detection-lambda.zip
 
 # Uploads
 backend/uploads/*
 !backend/uploads/.gitkeep
+
+# Test files and logs
+test-logs/
+backend/test-route.js
 
 # IDE
 .vscode/
@@ -27,6 +36,10 @@ backend/uploads/*
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
 
 
 

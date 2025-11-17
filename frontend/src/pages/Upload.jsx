@@ -4,6 +4,7 @@ import './Upload.css';
 
 function Upload() {
   const [file, setFile] = useState(null);
+  const [logType, setLogType] = useState('web'); // 'web' or 'access'
   const [uploading, setUploading] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState('');
@@ -61,7 +62,12 @@ function Upload() {
     const userId = localStorage.getItem('userId');
 
     try {
-      const response = await axios.post('http://localhost:3001/logs/upload', formData, {
+      // Choose endpoint based on log type
+      const endpoint = logType === 'web' 
+        ? 'http://localhost:3001/logs/upload'
+        : 'http://localhost:3001/access-logs/upload';
+      
+      const response = await axios.post(endpoint, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'x-user-id': userId || ''
@@ -87,13 +93,25 @@ function Upload() {
 
   return (
     <div className="upload-page">
-      <h2>Upload Zscaler Log File</h2>
+      <h2>Upload Log File</h2>
       <p className="upload-description">
-        Upload a .log or .txt file containing Zscaler Web Security logs. 
+        Upload a .log or .txt file containing security logs. 
         The system will parse the logs and perform anomaly detection.
       </p>
 
       <form onSubmit={handleSubmit} className="upload-form">
+        <div className="log-type-selector">
+          <label htmlFor="log-type">Log Type:</label>
+          <select
+            id="log-type"
+            value={logType}
+            onChange={(e) => setLogType(e.target.value)}
+            className="log-type-dropdown"
+          >
+            <option value="web">Web Security Logs (Zscaler)</option>
+            <option value="access">Access Logs (Apache/Nginx)</option>
+          </select>
+        </div>
         <div
           className="drop-zone"
           onDrop={handleDrop}

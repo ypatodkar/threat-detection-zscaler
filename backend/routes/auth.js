@@ -11,37 +11,8 @@ const router = express.Router();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configure multer for profile picture uploads
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    const uploadDir = path.join(__dirname, '../uploads/profiles');
-    if (!fs.existsSync(uploadDir)) {
-      fs.mkdirSync(uploadDir, { recursive: true });
-    }
-    cb(null, uploadDir);
-  },
-  filename: (req, file, cb) => {
-    const userId = req.headers['x-user-id'] || 'unknown';
-    const ext = path.extname(file.originalname);
-    cb(null, `profile-${userId}-${Date.now()}${ext}`);
-  }
-});
-
-const upload = multer({
-  storage: storage,
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
-  fileFilter: (req, file, cb) => {
-    const allowedTypes = /jpeg|jpg|png|gif|webp/;
-    const extname = allowedTypes.test(path.extname(file.originalname).toLowerCase());
-    const mimetype = allowedTypes.test(file.mimetype);
-    
-    if (mimetype && extname) {
-      return cb(null, true);
-    } else {
-      cb(new Error('Only image files are allowed (jpeg, jpg, png, gif, webp)'));
-    }
-  }
-});
+// Profile picture upload is disabled - files are not saved
+// Users can only update name and email
 
 // POST /auth/login
 router.post('/login', async (req, res) => {
@@ -204,8 +175,8 @@ router.get('/profile', async (req, res) => {
   }
 });
 
-// PUT /auth/profile - Update user profile
-router.put('/profile', upload.single('profilePicture'), async (req, res) => {
+// PUT /auth/profile - Update user profile (name and email only, no profile picture)
+router.put('/profile', async (req, res) => {
   try {
     const userId = req.headers['x-user-id'] || req.body.userId;
 
@@ -248,27 +219,8 @@ router.put('/profile', upload.single('profilePicture'), async (req, res) => {
       paramCount++;
     }
 
-    // Handle profile picture upload
-    if (req.file) {
-      // Delete old profile picture if exists
-      const oldUser = await pool.query(
-        'SELECT profile_picture FROM users WHERE id = $1',
-        [parseInt(userId)]
-      );
-      
-      if (oldUser.rows[0]?.profile_picture) {
-        const oldPath = path.join(__dirname, '../uploads/profiles', path.basename(oldUser.rows[0].profile_picture));
-        if (fs.existsSync(oldPath)) {
-          fs.unlinkSync(oldPath);
-        }
-      }
-
-      // Store relative path for profile picture
-      const profilePicturePath = `/uploads/profiles/${req.file.filename}`;
-      updates.push(`profile_picture = $${paramCount}`);
-      values.push(profilePicturePath);
-      paramCount++;
-    }
+    // Profile picture upload is disabled - files are not saved
+    // Users can only update name and email
 
     if (updates.length === 0) {
       return res.status(400).json({ error: 'No fields to update' });

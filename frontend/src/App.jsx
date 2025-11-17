@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import DashboardHome from './pages/DashboardHome';
 import Upload from './pages/Upload';
 import Events from './pages/Events';
+import AccessLogs from './pages/AccessLogs';
 import AIDocumentation from './pages/AIDocumentation';
 import Profile from './pages/Profile';
 import './App.css';
@@ -93,6 +94,14 @@ function App() {
           element={
             isAuthenticated ? 
               <Dashboard onLogout={handleLogout}><Events /></Dashboard> : 
+              <Navigate to="/login" replace />
+          } 
+        />
+        <Route 
+          path="/access-logs" 
+          element={
+            isAuthenticated ? 
+              <Dashboard onLogout={handleLogout}><AccessLogs /></Dashboard> : 
               <Navigate to="/login" replace />
           } 
         />

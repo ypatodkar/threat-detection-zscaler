@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { useDebouncedValue } from '../hooks/useDebouncedValue';
 import './Events.css';
@@ -185,7 +185,12 @@ function Events() {
 
   return (
     <div className="events-page">
-      <h2>Security Events</h2>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+        <h2>Security Events</h2>
+        <Link to="/dashboard?type=web" className="view-dashboard-link">
+          ← View Dashboard
+        </Link>
+      </div>
       <p className="search-description">
         Search as you type in any column field below. Results update automatically after 300ms.
       </p>
@@ -302,13 +307,7 @@ function Events() {
         <div className="loading">Searching...</div>
       ) : (
         <>
-          <div className="results-info">
-            {hasActiveSearch ? (
-              <p>Found {logs.length} result{logs.length !== 1 ? 's' : ''}</p>
-            ) : (
-              <p>Showing {logs.length} log entries</p>
-            )}
-          </div>
+
 
           <div className="table-container">
             <table className="events-table">
