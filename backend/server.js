@@ -30,6 +30,15 @@ const corsOptions = {
 // CORS middleware - must be before other middleware
 app.use(cors(corsOptions));
 
+// Add CORS headers to ALL responses (not just preflight)
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, x-user-id, X-Requested-With, Accept, Origin');
+  res.header('Access-Control-Max-Age', '86400');
+  next();
+});
+
 // Explicit OPTIONS handler for all routes (before other routes)
 app.options('*', (req, res) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -59,10 +68,13 @@ app.get('/health', (req, res) => {
 export default app;
 
 // Start server (Railway, Render, etc. will use PORT env var)
-// Lambda will not execute this (it uses serverless-handler.js)
-const serverPort = process.env.PORT || PORT;
-app.listen(serverPort, '0.0.0.0', () => {
-  console.log(`Server running on port ${serverPort}`);
-  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
-});
+// Vercel/Lambda will not execute this (they use serverless handlers)
+// Only start if not in serverless environment
+if (process.env.VERCEL === undefined && process.env.AWS_LAMBDA_FUNCTION_NAME === undefined) {
+  const serverPort = process.env.PORT || PORT;
+  app.listen(serverPort, '0.0.0.0', () => {
+    console.log(`Server running on port ${serverPort}`);
+    console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+  });
+}
 
