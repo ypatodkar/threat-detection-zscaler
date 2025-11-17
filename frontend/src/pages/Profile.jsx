@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import API_URL from '../config/api';
 import { FaCamera } from 'react-icons/fa';
 import './Profile.css';
 
@@ -29,7 +30,7 @@ function Profile() {
       }
 
       const headers = { 'x-user-id': userId };
-      const response = await axios.get('http://localhost:3001/auth/profile', { headers });
+      const response = await axios.get(`${API_URL}/auth/profile`, { headers });
 
       if (response.data.success) {
         setUserData(response.data.user);
@@ -74,7 +75,7 @@ function Profile() {
         formData.append('profilePicture', profilePicture);
       }
 
-      const response = await axios.put('http://localhost:3001/auth/profile', formData, {
+      const response = await axios.put(`${API_URL}/auth/profile`, formData, {
         headers: {
           ...headers,
           'Content-Type': 'multipart/form-data'
@@ -151,7 +152,7 @@ function Profile() {
 
   const getProfileImage = () => {
     if (userData?.profilePicture) {
-      return `http://localhost:3001${userData.profilePicture}`;
+      return `${API_URL}${userData.profilePicture}`;
     }
     return null;
   };

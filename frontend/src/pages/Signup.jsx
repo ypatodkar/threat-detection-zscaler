@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import API_URL from '../config/api';
 import './Login.css';
 
 function Signup({ onLogin }) {
@@ -23,7 +24,7 @@ function Signup({ onLogin }) {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:3001/auth/signup', {
+      const response = await axios.post(`${API_URL}/auth/signup`, {
         username,
         password,
         email: email.trim() || undefined

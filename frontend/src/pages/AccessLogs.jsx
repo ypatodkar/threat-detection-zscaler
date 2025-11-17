@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import axios from 'axios';
+import API_URL from '../config/api';
 import { useDebouncedValue } from '../hooks/useDebouncedValue';
 import './AccessLogs.css';
 
@@ -88,7 +89,7 @@ function AccessLogs() {
       const headers = userId ? { 'x-user-id': userId } : {};
 
       const response = await axios.get(
-        `http://localhost:3001/access-logs/events?page=${page}&limit=50`,
+        `${API_URL}/access-logs/events?page=${page}&limit=50`,
         { headers }
       );
 
@@ -125,7 +126,7 @@ function AccessLogs() {
       }
 
       const response = await axios.get(
-        `http://localhost:3001/access-logs/search?field=${field}&q=${encodeURIComponent(searchQuery)}`,
+        `${API_URL}/access-logs/search?field=${field}&q=${encodeURIComponent(searchQuery)}`,
         { headers }
       );
 

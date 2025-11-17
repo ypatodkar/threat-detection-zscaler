@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import axios from 'axios';
+import API_URL from '../config/api';
 import { useDebouncedValue } from '../hooks/useDebouncedValue';
 import './Events.css';
 
@@ -85,7 +86,7 @@ function Events() {
       const headers = userId ? { 'x-user-id': userId } : {};
 
       const response = await axios.get(
-        `http://localhost:3001/logs/search?field=${field}&q=${encodeURIComponent(query.trim())}`,
+        `${API_URL}/logs/search?field=${field}&q=${encodeURIComponent(query.trim())}`,
         { headers }
       );
 
@@ -113,7 +114,7 @@ function Events() {
         limit: '50'
       });
 
-      const response = await axios.get(`http://localhost:3001/logs/events?${params}`, {
+      const response = await axios.get(`${API_URL}/logs/events?${params}`, {
         headers
       });
 

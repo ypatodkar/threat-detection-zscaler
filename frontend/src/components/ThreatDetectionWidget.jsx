@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import API_URL from '../config/api';
 import './ThreatDetectionWidget.css';
 
 function ThreatDetectionWidget() {
@@ -34,7 +35,7 @@ function ThreatDetectionWidget() {
       const headers = userId ? { 'x-user-id': userId } : {};
 
       // Fetch dashboard statistics from dedicated endpoint
-      const response = await axios.get('http://localhost:3001/logs/stats', { headers });
+      const response = await axios.get(`${API_URL}/logs/stats`, { headers });
       
       setStats(response.data);
     } catch (err) {

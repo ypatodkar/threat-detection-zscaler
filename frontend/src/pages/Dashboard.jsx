@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation, Outlet, useNavigate } from 'react-router-dom';
 import { FaChartBar, FaUpload, FaTable, FaNetworkWired, FaRobot, FaSignOutAlt } from 'react-icons/fa';
+import API_URL from '../config/api';
 import './Dashboard.css';
 
 function Dashboard({ onLogout, children }) {
@@ -23,7 +24,7 @@ function Dashboard({ onLogout, children }) {
   
   const getProfileImage = () => {
     if (profilePicture) {
-      return `http://localhost:3001${profilePicture}`;
+      return `${API_URL}${profilePicture}`;
     }
     return null;
   };

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
+import API_URL from '../config/api';
 import './AccessLogsWidget.css';
 
 function AccessLogsWidget() {
@@ -35,7 +36,7 @@ function AccessLogsWidget() {
       const userId = localStorage.getItem('userId');
       const headers = userId ? { 'x-user-id': userId } : {};
 
-      const response = await axios.get('http://localhost:3001/access-logs/stats', { headers });
+      const response = await axios.get(`${API_URL}/access-logs/stats`, { headers });
       
       setStats(response.data);
     } catch (err) {
