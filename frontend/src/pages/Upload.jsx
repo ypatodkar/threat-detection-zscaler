@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import API_URL from '../config/api';
 import './Upload.css';
@@ -7,9 +7,13 @@ function Upload() {
   const [file, setFile] = useState(null);
   const [logType, setLogType] = useState(''); // 'web' or 'access' - no default
   const [uploading, setUploading] = useState(false);
+  const [uploadProgress, setUploadProgress] = useState(0);
+  const [processingProgress, setProcessingProgress] = useState(0);
+  const [isProcessing, setIsProcessing] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState('');
   const fileInputRef = useRef(null);
+  const processingIntervalRef = useRef(null);
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
@@ -45,6 +49,15 @@ function Upload() {
     e.preventDefault();
   };
 
+  // Cleanup processing interval on unmount
+  useEffect(() => {
+    return () => {
+      if (processingIntervalRef.current) {
+        clearInterval(processingIntervalRef.current);
+      }
+    };
+  }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!logType) {
@@ -57,8 +70,16 @@ function Upload() {
     }
 
     setUploading(true);
+    setUploadProgress(0);
+    setProcessingProgress(0);
+    setIsProcessing(false);
     setError('');
     setResult(null);
+
+    // Clear any existing interval
+    if (processingIntervalRef.current) {
+      clearInterval(processingIntervalRef.current);
+    }
 
     const formData = new FormData();
     formData.append('logfile', file);
@@ -72,12 +93,50 @@ function Upload() {
         ? `${API_URL}/logs/upload`
         : `${API_URL}/access-logs/upload`;
       
+      // Start processing simulation after upload completes
+      const startProcessingSimulation = () => {
+        setIsProcessing(true);
+        setProcessingProgress(0);
+        
+        // Simulate processing progress (80% to 100%)
+        let progress = 80;
+        processingIntervalRef.current = setInterval(() => {
+          progress += Math.random() * 3; // Increment by 0-3% each interval
+          if (progress >= 99) {
+            progress = 99; // Hold at 99% until actual completion
+          }
+          setProcessingProgress(Math.min(progress, 99));
+        }, 200); // Update every 200ms
+      };
+
       const response = await axios.post(endpoint, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'x-user-id': userId || ''
+        },
+        onUploadProgress: (progressEvent) => {
+          if (progressEvent.total) {
+            const percentCompleted = Math.round(
+              (progressEvent.loaded * 80) / progressEvent.total
+            ); // Upload is 0-80% of total
+            setUploadProgress(percentCompleted);
+            
+            // When upload is complete, start processing simulation
+            if (percentCompleted >= 80 && !isProcessing) {
+              startProcessingSimulation();
+            }
+          }
         }
       });
+
+      // Clear processing interval
+      if (processingIntervalRef.current) {
+        clearInterval(processingIntervalRef.current);
+      }
+
+      // Set to 100% when complete
+      setProcessingProgress(100);
+      setIsProcessing(false);
 
       setResult({
         success: true,
@@ -90,7 +149,14 @@ function Upload() {
         fileInputRef.current.value = '';
       }
     } catch (err) {
+      // Clear interval on error
+      if (processingIntervalRef.current) {
+        clearInterval(processingIntervalRef.current);
+      }
       setError(err.response?.data?.error || 'Upload failed');
+      setUploadProgress(0);
+      setProcessingProgress(0);
+      setIsProcessing(false);
     } finally {
       setUploading(false);
     }
@@ -162,7 +228,34 @@ function Upload() {
 
         {error && <div className="error-message">{error}</div>}
 
-        {result && (
+        {uploading && (
+          <div className="upload-loader-container">
+            <div className="loader-spinner"></div>
+            <p className="loader-text">
+              {isProcessing 
+                ? 'Processing file and extracting data...' 
+                : 'Uploading file...'}
+            </p>
+            <div className="progress-container">
+              <div className="progress-bar-wrapper">
+                <div 
+                  className="progress-bar"
+                  style={{ width: `${Math.max(uploadProgress, processingProgress)}%` }}
+                ></div>
+              </div>
+              <span className="progress-percentage">
+                {Math.round(Math.max(uploadProgress, processingProgress))}%
+              </span>
+            </div>
+            <p className="loader-subtext">
+              {isProcessing 
+                ? 'Analyzing logs and detecting anomalies...' 
+                : 'This may take a moment for large files'}
+            </p>
+          </div>
+        )}
+
+        {result && !uploading && (
           <div className="success-message">
             <h3>✓ Upload Successful!</h3>
             <p>{result.message}</p>

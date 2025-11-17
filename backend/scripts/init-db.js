@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import pool from '../config/database.js';
 import fs from 'fs';
 import path from 'path';
@@ -48,6 +48,7 @@ async function initDatabase() {
 }
 
 initDatabase();
+
 
 
 

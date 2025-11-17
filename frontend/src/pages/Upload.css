@@ -188,5 +188,149 @@
   color: #e74c3c;
 }
 
+/* Loader Styles */
+.upload-loader-container {
+  background: rgba(26, 31, 46, 0.9);
+  border: 1px solid rgba(115, 255, 245, 0.3);
+  border-radius: 10px;
+  padding: 3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-loader-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(115, 255, 245, 0.1),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.loader-spinner {
+  width: 60px;
+  height: 60px;
+  border: 4px solid rgba(115, 255, 245, 0.2);
+  border-top: 4px solid #73fff5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 0 20px rgba(115, 255, 245, 0.3);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-text {
+  color: #73fff5;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  text-shadow: 0 0 10px rgba(115, 255, 245, 0.5);
+}
+
+.loader-subtext {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0;
+}
+
+/* Progress Bar Styles */
+.progress-container {
+  width: 100%;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progress-bar-wrapper {
+  flex: 1;
+  height: 8px;
+  background: rgba(115, 255, 245, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #73fff5 0%, #667eea 100%);
+  border-radius: 10px;
+  transition: width 0.3s ease;
+  position: relative;
+  box-shadow: 0 0 10px rgba(115, 255, 245, 0.5);
+  animation: progress-glow 2s ease-in-out infinite;
+}
+
+.progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  animation: progress-shine 1.5s infinite;
+}
+
+@keyframes progress-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(115, 255, 245, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(115, 255, 245, 0.8);
+  }
+}
+
+@keyframes progress-shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.progress-percentage {
+  color: #73fff5;
+  font-size: 1.1rem;
+  font-weight: 600;
+  min-width: 50px;
+  text-align: right;
+  text-shadow: 0 0 10px rgba(115, 255, 245, 0.5);
+}
+
+
 
 
