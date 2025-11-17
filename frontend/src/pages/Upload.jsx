@@ -1,10 +1,11 @@
 import { useState, useRef } from 'react';
 import axios from 'axios';
+import API_URL from '../config/api';
 import './Upload.css';
 
 function Upload() {
   const [file, setFile] = useState(null);
-  const [logType, setLogType] = useState('web'); // 'web' or 'access'
+  const [logType, setLogType] = useState(''); // 'web' or 'access' - no default
   const [uploading, setUploading] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState('');
@@ -46,6 +47,10 @@ function Upload() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!logType) {
+      setError('Please select a log type first');
+      return;
+    }
     if (!file) {
       setError('Please select a file');
       return;
@@ -64,8 +69,8 @@ function Upload() {
     try {
       // Choose endpoint based on log type
       const endpoint = logType === 'web' 
-        ? 'http://localhost:3001/logs/upload'
-        : 'http://localhost:3001/access-logs/upload';
+        ? `${API_URL}/logs/upload`
+        : `${API_URL}/access-logs/upload`;
       
       const response = await axios.post(endpoint, formData, {
         headers: {
@@ -101,22 +106,35 @@ function Upload() {
 
       <form onSubmit={handleSubmit} className="upload-form">
         <div className="log-type-selector">
-          <label htmlFor="log-type">Log Type:</label>
+          <label htmlFor="log-type">Log Type: <span className="required">*</span></label>
           <select
             id="log-type"
             value={logType}
-            onChange={(e) => setLogType(e.target.value)}
+            onChange={(e) => {
+              setLogType(e.target.value);
+              setFile(null); // Clear file when log type changes
+              setError('');
+              if (fileInputRef.current) {
+                fileInputRef.current.value = '';
+              }
+            }}
             className="log-type-dropdown"
+            required
           >
+            <option value="">-- Select log type --</option>
             <option value="web">Web Security Logs (Zscaler)</option>
             <option value="access">Access Logs (Apache/Nginx)</option>
           </select>
         </div>
         <div
-          className="drop-zone"
-          onDrop={handleDrop}
-          onDragOver={handleDragOver}
-          onClick={() => fileInputRef.current?.click()}
+          className={`drop-zone ${!logType ? 'disabled' : ''}`}
+          onDrop={logType ? handleDrop : undefined}
+          onDragOver={logType ? handleDragOver : undefined}
+          onClick={logType ? () => fileInputRef.current?.click() : undefined}
+          style={{ 
+            cursor: logType ? 'pointer' : 'not-allowed',
+            opacity: logType ? 1 : 0.6
+          }}
         >
           <input
             ref={fileInputRef}
@@ -125,7 +143,11 @@ function Upload() {
             onChange={handleFileChange}
             style={{ display: 'none' }}
           />
-          {file ? (
+          {!logType ? (
+            <div className="drop-zone-content" style={{ color: '#999' }}>
+              <p>⚠️ Please select a log type first</p>
+            </div>
+          ) : file ? (
             <div className="file-selected">
               <p>✓ {file.name}</p>
               <p className="file-size">{(file.size / 1024).toFixed(2)} KB</p>
@@ -159,7 +181,7 @@ function Upload() {
 
         <button 
           type="submit" 
-          disabled={!file || uploading}
+          disabled={!logType || !file || uploading}
           className="upload-button"
         >
           {uploading ? 'Processing...' : 'Upload & Process'}
