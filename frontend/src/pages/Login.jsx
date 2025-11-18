@@ -67,7 +67,6 @@ function Login({ onLogin }) {
         </form>
         <div className="login-hint">
           <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
-          <p>Default credentials: admin / admin123</p>
         </div>
       </div>
     </div>
