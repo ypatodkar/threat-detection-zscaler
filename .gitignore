@@ -22,11 +22,6 @@ backend/threat-detection-lambda.zip
 backend/uploads/*
 !backend/uploads/.gitkeep
 
-# Test log files (too large for git)
-test-logs/*.txt
-test-logs/*.log
-!test-logs/.gitkeep
-
 
 # IDE
 .vscode/
