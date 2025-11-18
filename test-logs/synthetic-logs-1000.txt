@@ -1,0 +1,1000 @@
+1763320023 10.1.1.25 alice.williams https://netflix.com BLOCK 500 3890 19694 Suspicious None
+1763320083 172.16.0.50 diana.prince https://linkedin.com/login?user=admin%27-- BLOCK 403 855 5735 Suspicious Trojan
+1763320143 10.1.1.26 charlie.brown https://example.com BLOCK 200 3690 4898 Technology None
+1763320203 10.1.1.28 jane.smith https://test-site.com/union%20select%20*%20from%20users ALLOW 500 724 13521 Shopping None
+1763320263 172.16.0.51 alice.williams https://malicious-site.com ALLOW 404 3346 9739 Social Media Trojan
+1763320323 10.1.1.27 john.doe https://suspicious-domain.net/union%20select%20*%20from%20users ALLOW 301 1985 3805 Shopping Suspicious
+1763320383 10.1.1.28 charlie.brown https://malware-source.org ALLOW 404 4896 4807 Shopping None
+1763320443 10.1.1.27 alice.williams https://demo-page.com/union%20select%20*%20from%20users BLOCK 500 4182 13973 Technology None
+1763320503 192.168.1.100 bob.jones https://netflix.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 332 6581 Suspicious None
+1763320563 172.16.0.51 jane.smith https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 1401 16824 Social Media None
+1763320623 192.168.1.101 fiona.apple https://netflix.com BLOCK 500 1621 11615 Entertainment None
+1763320683 10.1.1.25 john.doe https://malware-source.org ALLOW 403 4652 2679 Suspicious None
+1763320743 10.1.1.27 jane.smith https://sample-url.com/union%20select%20*%20from%20users ALLOW 403 4252 9991 Malware None
+1763320803 172.16.0.51 john.doe https://stackoverflow.com BLOCK 200 4891 18931 Malware None
+1763320863 10.1.1.26 charlie.brown https://github.com/api?id=1%20AND%201=1 ALLOW 200 3158 17749 Suspicious None
+1763320923 172.16.0.50 edward.norton https://stackoverflow.com ALLOW 404 1098 16256 Shopping Phishing
+1763320983 192.168.1.101 alice.williams https://twitter.com ALLOW 500 2350 1250 Entertainment None
+1763321043 10.1.1.25 fiona.apple https://facebook.com/api?id=1%20AND%201=1 BLOCK 302 1406 20273 Business None
+1763321103 172.16.0.50 diana.prince https://sample-url.com ALLOW 500 3337 19748 Malware None
+1763321163 10.1.1.27 edward.norton https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 4429 13340 Social Media None
+1763321223 10.1.1.26 bob.jones https://sample-url.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 716 3741 Suspicious None
+1763321283 192.168.1.101 edward.norton https://reddit.com ALLOW 403 4537 15452 Phishing None
+1763321343 192.168.1.101 bob.jones https://amazon.com BLOCK 500 2954 3339 Entertainment None
+1763321403 10.1.1.28 john.doe https://linkedin.com ALLOW 500 3088 7179 Entertainment None
+1763321463 172.16.0.50 bob.jones https://sample-url.com/login?user=admin%27-- BLOCK 302 1350 17417 Malware None
+1763321523 10.1.1.26 john.doe https://youtube.com/union%20select%20*%20from%20users BLOCK 403 1932 5609 Phishing None
+1763321583 10.1.1.26 charlie.brown https://reddit.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 301 1502 18472 Malware None
+1763321643 10.1.1.25 fiona.apple https://example.com ALLOW 403 4214 3628 Malware None
+1763321703 10.1.1.26 john.doe https://google.com ALLOW 200 108 1037 Malware None
+1763321763 10.1.1.27 bob.jones https://suspicious-domain.net BLOCK 200 1289 16563 Technology Phishing
+1763321823 10.1.1.28 alice.williams https://reddit.com/union%20select%20*%20from%20users BLOCK 301 4749 12077 Suspicious None
+1763321883 192.168.1.101 bob.jones https://example.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 500 1515 4143 Technology None
+1763321943 172.16.0.51 diana.prince https://google.com/union%20select%20*%20from%20users BLOCK 403 644 2757 Social Media None
+1763322003 10.1.1.25 charlie.brown https://facebook.com ALLOW 403 570 3313 Suspicious None
+1763322063 192.168.1.101 bob.jones https://linkedin.com ALLOW 500 4188 8876 Social Media None
+1763322123 192.168.1.100 jane.smith https://stackoverflow.com ALLOW 403 4593 6946 Shopping None
+1763322183 172.16.0.50 fiona.apple https://netflix.com ALLOW 301 1750 8707 Suspicious None
+1763322243 172.16.0.50 bob.jones https://malware-source.org/api?id=1%20AND%201=1 BLOCK 500 4714 8510 Entertainment None
+1763322303 192.168.1.100 diana.prince https://github.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 500 471 14141 Malware None
+1763322363 10.1.1.28 fiona.apple https://amazon.com BLOCK 403 3165 976 Malware None
+1763322423 192.168.1.101 charlie.brown https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 1968 8273 Business None
+1763322483 10.1.1.25 john.doe https://google.com ALLOW 302 3653 18818 Entertainment None
+1763322543 10.1.1.28 john.doe https://sample-url.com/union%20select%20*%20from%20users ALLOW 404 3393 16498 Phishing None
+1763322603 10.1.1.27 bob.jones https://reddit.com ALLOW 301 5024 10524 Shopping None
+1763322663 10.1.1.28 jane.smith https://twitter.com ALLOW 301 568 6101 Phishing None
+1763322723 172.16.0.50 john.doe https://google.com/login?user=admin%27-- ALLOW 200 1376 18501 Social Media None
+1763322783 10.1.1.26 jane.smith https://linkedin.com ALLOW 301 4918 10118 Malware None
+1763322843 10.1.1.26 alice.williams https://amazon.com/api?id=1%20AND%201=1 ALLOW 403 1959 10737 Shopping None
+1763322903 172.16.0.50 edward.norton https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 652 3387 Phishing None
+1763322963 192.168.1.101 jane.smith https://malware-source.org/api?id=1%20AND%201=1 BLOCK 500 819 19518 Shopping None
+1763323023 10.1.1.28 charlie.brown https://amazon.com BLOCK 301 874 19405 Technology None
+1763323083 10.1.1.26 charlie.brown https://malware-source.org BLOCK 500 1883 18499 Malware None
+1763323143 10.1.1.28 edward.norton https://youtube.com BLOCK 200 941 11644 Entertainment None
+1763323203 10.1.1.28 charlie.brown https://suspicious-domain.net/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 3493 6060 Malware Spyware
+1763323263 172.16.0.51 jane.smith https://sample-url.com ALLOW 200 3016 18740 Technology None
+1763323323 192.168.1.100 bob.jones https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 2799 2496 Malware None
+1763323383 172.16.0.51 charlie.brown https://facebook.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 688 1172 Business None
+1763323443 192.168.1.100 charlie.brown https://malicious-site.com BLOCK 403 3316 13168 Entertainment Suspicious
+1763323503 10.1.1.27 fiona.apple https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 1044 8899 Suspicious None
+1763323563 192.168.1.100 john.doe https://twitter.com BLOCK 403 2390 12986 Suspicious None
+1763323623 192.168.1.101 alice.williams https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 4800 8748 Entertainment None
+1763323683 10.1.1.25 diana.prince https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 2494 16166 Phishing None
+1763323743 10.1.1.27 bob.jones https://github.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 4377 9200 Technology None
+1763323803 192.168.1.101 diana.prince https://youtube.com BLOCK 404 3233 13766 Suspicious None
+1763323863 192.168.1.101 john.doe https://twitter.com ALLOW 403 4360 15196 Shopping None
+1763323923 192.168.1.101 fiona.apple https://youtube.com/login?user=admin%27-- BLOCK 302 2933 14278 Social Media None
+1763323983 172.16.0.50 diana.prince https://phishing-attempt.com BLOCK 404 3698 19376 Phishing Spyware
+1763324043 172.16.0.50 diana.prince https://example.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 2796 14278 Malware None
+1763324103 10.1.1.26 jane.smith https://twitter.com/login?user=admin%27-- ALLOW 301 2339 6177 Business None
+1763324163 192.168.1.101 jane.smith https://phishing-attempt.com/union%20select%20*%20from%20users BLOCK 200 3985 17734 Phishing Suspicious
+1763324223 10.1.1.27 charlie.brown https://youtube.com ALLOW 403 3077 4488 Shopping None
+1763324283 10.1.1.26 bob.jones https://test-site.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 500 3090 18591 Suspicious None
+1763324343 10.1.1.26 jane.smith https://twitter.com BLOCK 500 2241 5335 Technology None
+1763324403 172.16.0.50 fiona.apple https://phishing-attempt.com BLOCK 500 1295 6883 Shopping Spyware
+1763324463 10.1.1.26 charlie.brown https://netflix.com BLOCK 404 3834 18896 Social Media None
+1763324523 10.1.1.27 bob.jones https://netflix.com BLOCK 302 3639 16082 Shopping None
+1763324583 10.1.1.25 diana.prince https://phishing-attempt.com/union%20select%20*%20from%20users ALLOW 301 1265 3724 Shopping Trojan
+1763324643 172.16.0.51 john.doe https://malicious-site.com/api?id=1%20AND%201=1 ALLOW 403 3385 6448 Social Media Phishing
+1763324703 172.16.0.50 john.doe https://example.com/union%20select%20*%20from%20users ALLOW 200 2759 7104 Phishing None
+1763324763 10.1.1.27 jane.smith https://malicious-site.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 403 4045 17503 Shopping Trojan
+1763324823 192.168.1.100 jane.smith https://suspicious-domain.net BLOCK 302 4863 4171 Phishing Phishing
+1763324883 192.168.1.100 edward.norton https://amazon.com/login?user=admin%27-- BLOCK 200 4703 10102 Malware None
+1763324943 192.168.1.100 bob.jones https://example.com BLOCK 404 2548 3488 Phishing None
+1763325003 10.1.1.26 alice.williams https://phishing-attempt.com/union%20select%20*%20from%20users ALLOW 500 2105 1969 Entertainment Trojan
+1763325063 192.168.1.101 bob.jones https://stackoverflow.com BLOCK 500 4835 18683 Entertainment None
+1763325123 192.168.1.100 edward.norton https://netflix.com ALLOW 403 1013 19813 Shopping None
+1763325183 10.1.1.26 edward.norton https://demo-page.com BLOCK 500 628 10000 Shopping None
+1763325243 10.1.1.25 charlie.brown https://phishing-attempt.com/login?user=admin%27-- ALLOW 302 268 3250 Entertainment Phishing
+1763325303 192.168.1.100 edward.norton https://demo-page.com ALLOW 301 1659 13112 Technology None
+1763325363 10.1.1.27 john.doe https://google.com/api?id=1%20AND%201=1 BLOCK 500 5099 3418 Shopping None
+1763325423 10.1.1.28 alice.williams https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 1246 8753 Suspicious None
+1763325483 172.16.0.51 charlie.brown https://suspicious-domain.net ALLOW 200 1901 17744 Technology Phishing
+1763325543 10.1.1.25 bob.jones https://stackoverflow.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 4547 9743 Suspicious None
+1763325603 10.1.1.28 bob.jones https://twitter.com ALLOW 302 3744 1240 Phishing Phishing
+1763325663 192.168.1.100 fiona.apple https://youtube.com/union%20select%20*%20from%20users ALLOW 404 1826 14627 Malware None
+1763325723 172.16.0.51 charlie.brown https://example.com BLOCK 301 2755 18111 Entertainment None
+1763325783 10.1.1.28 edward.norton https://suspicious-domain.net BLOCK 301 3377 10765 Shopping Malware
+1763325843 192.168.1.100 diana.prince https://twitter.com ALLOW 404 1025 17997 Phishing None
+1763325903 10.1.1.27 alice.williams https://linkedin.com ALLOW 500 580 2852 Suspicious None
+1763325963 10.1.1.27 charlie.brown https://amazon.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 1690 3122 Shopping None
+1763326023 192.168.1.100 bob.jones https://reddit.com/login?user=admin%27-- BLOCK 403 2244 9765 Entertainment None
+1763326083 192.168.1.100 fiona.apple https://stackoverflow.com ALLOW 301 2741 19907 Business None
+1763326143 192.168.1.100 charlie.brown https://stackoverflow.com/union%20select%20*%20from%20users BLOCK 200 3361 9286 Entertainment None
+1763326203 192.168.1.100 bob.jones https://demo-page.com ALLOW 403 4461 17070 Entertainment None
+1763326263 172.16.0.50 charlie.brown https://twitter.com/union%20select%20*%20from%20users BLOCK 403 3485 10995 Business None
+1763326323 192.168.1.100 alice.williams https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 4271 5365 Social Media None
+1763326383 192.168.1.100 charlie.brown https://stackoverflow.com/login?user=admin%27-- BLOCK 404 2578 6855 Social Media None
+1763326443 10.1.1.26 charlie.brown https://demo-page.com/union%20select%20*%20from%20users ALLOW 301 4032 9105 Malware None
+1763326503 172.16.0.51 edward.norton https://linkedin.com ALLOW 500 4668 17207 Technology None
+1763326563 172.16.0.51 charlie.brown https://github.com/api?id=1%20AND%201=1 ALLOW 200 226 7095 Shopping None
+1763326623 10.1.1.25 diana.prince https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 1878 9498 Business None
+1763326683 10.1.1.28 fiona.apple https://malware-source.org ALLOW 200 2033 11761 Entertainment None
+1763326743 172.16.0.51 alice.williams https://google.com/login?user=admin%27-- BLOCK 301 2333 3839 Social Media None
+1763326803 10.1.1.26 fiona.apple https://example.com/login?user=admin%27-- ALLOW 500 3516 14044 Social Media None
+1763326863 172.16.0.50 bob.jones https://youtube.com BLOCK 301 1684 3601 Technology None
+1763326923 192.168.1.101 bob.jones https://amazon.com/login?user=admin%27-- ALLOW 200 2925 20335 Shopping None
+1763326983 10.1.1.27 alice.williams https://google.com BLOCK 301 4095 5538 Social Media None
+1763327043 172.16.0.50 jane.smith https://youtube.com/api?id=1%20AND%201=1 BLOCK 302 744 18083 Business None
+1763327103 172.16.0.51 diana.prince https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 500 3633 12977 Phishing None
+1763327163 172.16.0.51 alice.williams https://example.com ALLOW 500 2580 11659 Entertainment None
+1763327223 172.16.0.51 alice.williams https://reddit.com ALLOW 200 2445 19226 Technology None
+1763327283 10.1.1.27 john.doe https://stackoverflow.com/login?user=admin%27-- BLOCK 404 3366 5176 Shopping None
+1763327343 192.168.1.101 bob.jones https://amazon.com ALLOW 404 4035 4148 Social Media None
+1763327403 172.16.0.51 jane.smith https://malware-source.org/api?id=1%20AND%201=1 BLOCK 404 3016 15925 Suspicious None
+1763327463 10.1.1.27 charlie.brown https://netflix.com ALLOW 301 393 9203 Technology None
+1763327523 10.1.1.28 fiona.apple https://suspicious-domain.net BLOCK 302 1113 1583 Malware Malware
+1763327583 192.168.1.101 john.doe https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 301 2616 8493 Technology None
+1763327643 10.1.1.27 john.doe https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 2330 9161 Shopping Trojan
+1763327703 10.1.1.25 jane.smith https://twitter.com BLOCK 302 3279 15328 Business None
+1763327763 10.1.1.26 bob.jones https://stackoverflow.com BLOCK 200 1371 8585 Malware None
+1763327823 10.1.1.26 alice.williams https://stackoverflow.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 393 7323 Suspicious None
+1763327883 10.1.1.26 bob.jones https://suspicious-domain.net BLOCK 200 3127 4301 Entertainment Trojan
+1763327943 10.1.1.26 bob.jones https://demo-page.com/login?user=admin%27-- ALLOW 403 2286 5842 Malware None
+1763328003 10.1.1.28 diana.prince https://example.com BLOCK 301 3330 1502 Shopping None
+1763328063 10.1.1.26 john.doe https://reddit.com/api?id=1%20AND%201=1 ALLOW 302 710 16336 Entertainment None
+1763328123 10.1.1.28 fiona.apple https://suspicious-domain.net/login?user=admin%27-- BLOCK 302 4528 2161 Business Spyware
+1763328183 10.1.1.27 diana.prince https://amazon.com ALLOW 200 4287 10843 Entertainment Suspicious
+1763328243 10.1.1.28 fiona.apple https://suspicious-domain.net BLOCK 403 422 17745 Suspicious Malware
+1763328303 192.168.1.100 john.doe https://linkedin.com BLOCK 302 5081 8052 Entertainment None
+1763328363 192.168.1.101 diana.prince https://demo-page.com/login?user=admin%27-- ALLOW 403 2791 2535 Malware None
+1763328423 192.168.1.101 john.doe https://netflix.com/api?id=1%20AND%201=1 BLOCK 404 1331 3406 Suspicious None
+1763328483 192.168.1.100 fiona.apple https://linkedin.com/union%20select%20*%20from%20users ALLOW 500 382 12299 Social Media None
+1763328543 192.168.1.101 jane.smith https://amazon.com ALLOW 500 3876 9183 Phishing None
+1763328603 172.16.0.50 alice.williams https://google.com BLOCK 500 3125 3347 Suspicious None
+1763328663 10.1.1.28 bob.jones https://facebook.com/api?id=1%20AND%201=1 ALLOW 301 4397 16862 Shopping None
+1763328723 172.16.0.50 alice.williams https://malicious-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 3192 10247 Business Suspicious
+1763328783 10.1.1.27 jane.smith https://example.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 150 2114 Suspicious None
+1763328843 192.168.1.101 jane.smith https://github.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 3258 1536 Suspicious None
+1763328903 10.1.1.27 john.doe https://youtube.com/union%20select%20*%20from%20users BLOCK 200 2112 2465 Social Media None
+1763328963 10.1.1.27 charlie.brown https://twitter.com BLOCK 403 3571 3261 Entertainment None
+1763329023 192.168.1.100 bob.jones https://youtube.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 4069 1324 Malware None
+1763329083 192.168.1.101 jane.smith https://malicious-site.com ALLOW 200 1878 19935 Malware Malware
+1763329143 10.1.1.25 edward.norton https://reddit.com ALLOW 302 4240 518 Entertainment None
+1763329203 10.1.1.26 charlie.brown https://phishing-attempt.com ALLOW 404 2305 7431 Technology Suspicious
+1763329263 192.168.1.100 diana.prince https://stackoverflow.com BLOCK 301 4856 15184 Social Media None
+1763329323 10.1.1.26 jane.smith https://linkedin.com BLOCK 302 1149 15742 Suspicious None
+1763329383 172.16.0.50 edward.norton https://netflix.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 239 16217 Social Media None
+1763329443 10.1.1.25 bob.jones https://youtube.com BLOCK 301 3173 12532 Shopping None
+1763329503 192.168.1.100 jane.smith https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 403 930 18914 Suspicious None
+1763329563 192.168.1.101 bob.jones https://reddit.com/login?user=admin%27-- ALLOW 404 895 8173 Phishing None
+1763329623 10.1.1.25 jane.smith https://amazon.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 4576 19115 Phishing None
+1763329683 10.1.1.27 fiona.apple https://twitter.com ALLOW 500 3220 7340 Entertainment None
+1763329743 172.16.0.50 john.doe https://test-site.com ALLOW 302 1624 9403 Suspicious None
+1763329803 10.1.1.28 edward.norton https://test-site.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 863 3273 Phishing Malware
+1763329863 10.1.1.26 jane.smith https://malicious-site.com/login?user=admin%27-- ALLOW 302 111 17182 Shopping Trojan
+1763329923 172.16.0.50 bob.jones https://stackoverflow.com BLOCK 403 3493 3678 Business None
+1763329983 192.168.1.101 fiona.apple https://netflix.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 2399 16052 Social Media Suspicious
+1763330043 172.16.0.51 john.doe https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 4036 2295 Business Phishing
+1763330103 10.1.1.26 john.doe https://suspicious-domain.net/login?user=admin%27-- ALLOW 404 603 6019 Social Media Trojan
+1763330163 10.1.1.26 charlie.brown https://netflix.com ALLOW 403 4350 3677 Phishing None
+1763330223 10.1.1.26 bob.jones https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 913 2611 Business None
+1763330283 10.1.1.26 john.doe https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 2246 533 Suspicious None
+1763330343 172.16.0.50 alice.williams https://facebook.com BLOCK 404 118 15971 Social Media None
+1763330403 172.16.0.50 diana.prince https://sample-url.com/union%20select%20*%20from%20users ALLOW 302 1328 10929 Entertainment None
+1763330463 10.1.1.25 alice.williams https://suspicious-domain.net BLOCK 301 4483 10403 Phishing Malware
+1763330523 172.16.0.51 bob.jones https://test-site.com/api?id=1%20AND%201=1 BLOCK 500 4142 9502 Social Media None
+1763330583 10.1.1.28 fiona.apple https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 3770 11748 Entertainment None
+1763330643 192.168.1.101 jane.smith https://test-site.com BLOCK 500 606 13718 Technology None
+1763330703 10.1.1.25 edward.norton https://example.com BLOCK 500 2291 4526 Suspicious None
+1763330763 10.1.1.26 edward.norton https://netflix.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 339 13928 Social Media None
+1763330823 10.1.1.25 diana.prince https://amazon.com ALLOW 302 3391 12431 Social Media None
+1763330883 192.168.1.100 charlie.brown https://demo-page.com BLOCK 302 1571 13178 Malware None
+1763330943 10.1.1.27 diana.prince https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 2385 9097 Social Media None
+1763331003 10.1.1.26 fiona.apple https://twitter.com BLOCK 200 3660 3565 Technology None
+1763331063 192.168.1.100 bob.jones https://phishing-attempt.com/api?id=1%20AND%201=1 ALLOW 200 2083 19566 Entertainment Phishing
+1763331123 10.1.1.26 edward.norton https://google.com ALLOW 500 4601 11908 Social Media None
+1763331183 172.16.0.50 diana.prince https://reddit.com ALLOW 200 1912 16131 Malware None
+1763331243 10.1.1.28 diana.prince https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 1416 6765 Phishing None
+1763331303 10.1.1.27 jane.smith https://suspicious-domain.net/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 4821 1271 Business Suspicious
+1763331363 10.1.1.25 charlie.brown https://github.com/login?user=admin%27-- ALLOW 404 3971 14691 Malware None
+1763331423 10.1.1.28 diana.prince https://example.com/api?id=1%20AND%201=1 BLOCK 500 4718 4310 Entertainment None
+1763331483 10.1.1.28 alice.williams https://facebook.com/api?id=1%20AND%201=1 ALLOW 200 1324 9966 Social Media None
+1763331543 192.168.1.100 bob.jones https://test-site.com/union%20select%20*%20from%20users BLOCK 301 1172 14950 Technology None
+1763331603 172.16.0.51 fiona.apple https://phishing-attempt.com BLOCK 301 1307 19345 Technology Malware
+1763331663 172.16.0.50 alice.williams https://suspicious-domain.net/union%20select%20*%20from%20users ALLOW 500 4614 12087 Suspicious Trojan
+1763331723 10.1.1.27 john.doe https://facebook.com ALLOW 200 1420 4909 Entertainment None
+1763331783 192.168.1.101 diana.prince https://github.com ALLOW 301 1679 2333 Malware None
+1763331843 172.16.0.51 diana.prince https://demo-page.com ALLOW 302 1919 16056 Malware None
+1763331903 10.1.1.25 charlie.brown https://example.com BLOCK 200 861 11977 Phishing None
+1763331963 172.16.0.51 charlie.brown https://suspicious-domain.net/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 4358 8216 Business Phishing
+1763332023 172.16.0.51 fiona.apple https://amazon.com/login?user=admin%27-- BLOCK 301 2930 3705 Suspicious None
+1763332083 10.1.1.25 charlie.brown https://facebook.com BLOCK 200 4439 13181 Shopping None
+1763332143 172.16.0.51 edward.norton https://reddit.com BLOCK 500 3949 7165 Social Media None
+1763332203 192.168.1.100 charlie.brown https://phishing-attempt.com/union%20select%20*%20from%20users ALLOW 302 4155 17152 Suspicious Trojan
+1763332263 192.168.1.101 charlie.brown https://demo-page.com/api?id=1%20AND%201=1 BLOCK 200 1242 9332 Technology None
+1763332323 10.1.1.25 fiona.apple https://phishing-attempt.com ALLOW 403 4193 9381 Technology Trojan
+1763332383 10.1.1.25 jane.smith https://example.com/api?id=1%20AND%201=1 BLOCK 301 2972 4682 Malware None
+1763332443 10.1.1.25 charlie.brown https://malware-source.org BLOCK 302 4906 3228 Social Media None
+1763332503 10.1.1.25 alice.williams https://demo-page.com BLOCK 404 2120 19917 Entertainment None
+1763332563 10.1.1.25 alice.williams https://netflix.com ALLOW 301 3892 8631 Suspicious None
+1763332623 192.168.1.101 edward.norton https://facebook.com ALLOW 200 3516 10003 Phishing None
+1763332683 192.168.1.100 charlie.brown https://suspicious-domain.net ALLOW 404 1955 12794 Technology Spyware
+1763332743 10.1.1.26 john.doe https://linkedin.com/api?id=1%20AND%201=1 BLOCK 404 562 17774 Business None
+1763332803 10.1.1.26 bob.jones https://stackoverflow.com ALLOW 301 1479 1458 Phishing None
+1763332863 172.16.0.50 alice.williams https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 302 290 2543 Shopping None
+1763332923 172.16.0.51 alice.williams https://malicious-site.com ALLOW 301 3625 2117 Business Phishing
+1763332983 172.16.0.50 fiona.apple https://github.com/union%20select%20*%20from%20users ALLOW 302 1434 9854 Malware None
+1763333043 172.16.0.51 alice.williams https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 2182 1805 Suspicious None
+1763333103 10.1.1.28 fiona.apple https://example.com ALLOW 404 657 18289 Business Suspicious
+1763333163 10.1.1.26 jane.smith https://google.com/api?id=1%20AND%201=1 ALLOW 500 2864 9012 Malware None
+1763333223 10.1.1.27 edward.norton https://stackoverflow.com BLOCK 302 970 2706 Technology None
+1763333283 10.1.1.26 bob.jones https://twitter.com BLOCK 404 2453 11502 Phishing None
+1763333343 10.1.1.27 charlie.brown https://stackoverflow.com/union%20select%20*%20from%20users ALLOW 301 2649 2282 Suspicious None
+1763333403 172.16.0.50 jane.smith https://twitter.com ALLOW 301 2161 16382 Shopping None
+1763333463 192.168.1.100 john.doe https://test-site.com/api?id=1%20AND%201=1 ALLOW 302 708 3833 Malware None
+1763333523 192.168.1.101 fiona.apple https://linkedin.com/login?user=admin%27-- BLOCK 403 1568 15981 Business None
+1763333583 192.168.1.101 alice.williams https://stackoverflow.com/login?user=admin%27-- BLOCK 302 106 7160 Phishing None
+1763333643 192.168.1.101 charlie.brown https://malware-source.org BLOCK 302 1526 2875 Social Media None
+1763333703 192.168.1.100 diana.prince https://facebook.com/union%20select%20*%20from%20users BLOCK 500 2763 13905 Entertainment None
+1763333763 192.168.1.100 alice.williams https://youtube.com/union%20select%20*%20from%20users ALLOW 403 728 1246 Malware None
+1763333823 192.168.1.100 bob.jones https://reddit.com/api?id=1%20AND%201=1 BLOCK 403 620 19282 Phishing None
+1763333883 10.1.1.28 charlie.brown https://google.com BLOCK 200 3589 12599 Business None
+1763333943 192.168.1.101 john.doe https://reddit.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 599 10410 Business None
+1763334003 10.1.1.27 john.doe https://linkedin.com/union%20select%20*%20from%20users BLOCK 403 2611 9450 Business None
+1763334063 172.16.0.51 alice.williams https://sample-url.com/api?id=1%20AND%201=1 ALLOW 301 4551 20181 Malware None
+1763334123 10.1.1.27 edward.norton https://github.com BLOCK 500 2921 13881 Social Media None
+1763334183 10.1.1.27 edward.norton https://reddit.com/login?user=admin%27-- ALLOW 302 2392 18451 Entertainment None
+1763334243 172.16.0.51 fiona.apple https://reddit.com BLOCK 403 3256 5295 Entertainment None
+1763334303 192.168.1.101 john.doe https://reddit.com ALLOW 302 4763 6705 Suspicious None
+1763334363 10.1.1.25 jane.smith https://example.com ALLOW 403 3483 16391 Entertainment None
+1763334423 10.1.1.25 bob.jones https://twitter.com ALLOW 200 2820 5443 Social Media None
+1763334483 10.1.1.26 bob.jones https://example.com BLOCK 301 5095 9880 Malware None
+1763334543 172.16.0.50 charlie.brown https://linkedin.com ALLOW 403 2341 19825 Business None
+1763334603 10.1.1.26 diana.prince https://example.com ALLOW 404 4815 19903 Social Media None
+1763334663 10.1.1.27 alice.williams https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 1775 17171 Technology Trojan
+1763334723 172.16.0.50 john.doe https://youtube.com ALLOW 500 1801 3358 Phishing None
+1763334783 192.168.1.101 fiona.apple https://github.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 200 598 8674 Malware None
+1763334843 10.1.1.25 edward.norton https://stackoverflow.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 301 3935 1771 Malware None
+1763334903 192.168.1.101 john.doe https://linkedin.com ALLOW 500 1219 10564 Malware None
+1763334963 172.16.0.50 alice.williams https://reddit.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 905 4556 Technology None
+1763335023 172.16.0.51 john.doe https://netflix.com/union%20select%20*%20from%20users BLOCK 301 150 15947 Malware None
+1763335083 10.1.1.28 fiona.apple https://linkedin.com ALLOW 302 5068 11241 Technology Trojan
+1763335143 10.1.1.25 bob.jones https://test-site.com ALLOW 302 2310 15987 Malware None
+1763335203 10.1.1.28 edward.norton https://reddit.com/union%20select%20*%20from%20users ALLOW 404 851 4837 Suspicious None
+1763335263 10.1.1.28 edward.norton https://example.com/login?user=admin%27-- ALLOW 404 2349 10675 Suspicious None
+1763335323 10.1.1.27 edward.norton https://reddit.com BLOCK 301 4915 2386 Social Media None
+1763335383 10.1.1.27 alice.williams https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 4975 938 Suspicious None
+1763335443 10.1.1.27 alice.williams https://malicious-site.com/api?id=1%20AND%201=1 ALLOW 404 1520 3115 Malware Trojan
+1763335503 10.1.1.25 jane.smith https://facebook.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 332 3947 Shopping None
+1763335563 192.168.1.101 jane.smith https://demo-page.com ALLOW 500 1328 17697 Social Media None
+1763335623 10.1.1.28 diana.prince https://suspicious-domain.net BLOCK 403 3095 7120 Phishing Phishing
+1763335683 10.1.1.25 edward.norton https://example.com/login?user=admin%27-- BLOCK 403 4201 3273 Entertainment None
+1763335743 172.16.0.50 fiona.apple https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 404 3824 19633 Shopping None
+1763335803 172.16.0.50 alice.williams https://test-site.com ALLOW 200 1129 11498 Technology None
+1763335863 10.1.1.26 charlie.brown https://reddit.com/api?id=1%20AND%201=1 BLOCK 500 554 14469 Social Media None
+1763335923 172.16.0.50 bob.jones https://youtube.com/api?id=1%20AND%201=1 BLOCK 302 3474 16069 Technology None
+1763335983 10.1.1.27 bob.jones https://youtube.com BLOCK 403 458 14257 Social Media None
+1763336043 192.168.1.101 diana.prince https://amazon.com ALLOW 403 4178 1665 Phishing None
+1763336103 10.1.1.28 jane.smith https://test-site.com BLOCK 403 4761 17535 Malware Malware
+1763336163 10.1.1.27 diana.prince https://stackoverflow.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 4388 5514 Suspicious None
+1763336223 10.1.1.25 john.doe https://demo-page.com ALLOW 500 2149 1992 Technology None
+1763336283 172.16.0.51 jane.smith https://github.com BLOCK 301 2309 15624 Suspicious None
+1763336343 10.1.1.26 charlie.brown https://netflix.com/api?id=1%20AND%201=1 ALLOW 403 871 12304 Malware None
+1763336403 172.16.0.51 diana.prince https://twitter.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 3635 12725 Entertainment None
+1763336463 10.1.1.27 diana.prince https://google.com ALLOW 200 1114 17685 Suspicious None
+1763336523 10.1.1.27 edward.norton https://example.com/login?user=admin%27-- BLOCK 302 4327 18099 Entertainment None
+1763336583 172.16.0.50 diana.prince https://amazon.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 4925 14294 Technology None
+1763336643 10.1.1.27 john.doe https://github.com ALLOW 200 4504 16901 Entertainment None
+1763336703 172.16.0.50 edward.norton https://malware-source.org BLOCK 302 1236 6542 Business None
+1763336763 172.16.0.50 john.doe https://linkedin.com/login?user=admin%27-- BLOCK 301 192 11830 Social Media None
+1763336823 172.16.0.50 jane.smith https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 1852 5405 Malware None
+1763336883 10.1.1.26 edward.norton https://reddit.com BLOCK 302 3250 1090 Suspicious None
+1763336943 10.1.1.26 diana.prince https://github.com ALLOW 500 4602 6183 Technology None
+1763337003 172.16.0.51 fiona.apple https://amazon.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 1222 4086 Suspicious None
+1763337063 10.1.1.26 bob.jones https://facebook.com ALLOW 404 4254 10109 Shopping None
+1763337123 10.1.1.27 charlie.brown https://google.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 768 5773 Malware None
+1763337183 172.16.0.51 bob.jones https://stackoverflow.com/login?user=admin%27-- BLOCK 403 2690 8921 Malware None
+1763337243 10.1.1.27 charlie.brown https://google.com BLOCK 301 4368 6979 Business None
+1763337303 10.1.1.28 bob.jones https://youtube.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 3836 14044 Social Media Trojan
+1763337363 192.168.1.100 diana.prince https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 200 3302 16081 Social Media None
+1763337423 10.1.1.25 fiona.apple https://amazon.com/login?user=admin%27-- ALLOW 301 2933 16568 Malware None
+1763337483 192.168.1.100 edward.norton https://reddit.com ALLOW 500 257 8688 Business None
+1763337543 192.168.1.100 alice.williams https://reddit.com/api?id=1%20AND%201=1 ALLOW 403 128 15876 Technology None
+1763337603 172.16.0.51 edward.norton https://example.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 1119 19469 Business None
+1763337663 192.168.1.101 alice.williams https://example.com BLOCK 404 4061 10620 Business None
+1763337723 10.1.1.28 charlie.brown https://malicious-site.com BLOCK 404 3038 15212 Entertainment Malware
+1763337783 10.1.1.28 fiona.apple https://example.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 3730 14051 Social Media None
+1763337843 10.1.1.26 charlie.brown https://malware-source.org/login?user=admin%27-- BLOCK 301 638 2042 Business None
+1763337903 10.1.1.27 diana.prince https://test-site.com BLOCK 403 4798 12445 Phishing None
+1763337963 192.168.1.100 charlie.brown https://demo-page.com/login?user=admin%27-- BLOCK 302 2399 2447 Technology None
+1763338023 192.168.1.101 diana.prince https://facebook.com/api?id=1%20AND%201=1 BLOCK 302 589 17608 Business None
+1763338083 10.1.1.28 diana.prince https://amazon.com BLOCK 200 4091 10972 Shopping None
+1763338143 192.168.1.101 john.doe https://amazon.com/api?id=1%20AND%201=1 ALLOW 403 512 13612 Shopping None
+1763338203 172.16.0.50 charlie.brown https://google.com ALLOW 403 3164 2934 Entertainment None
+1763338263 192.168.1.100 jane.smith https://github.com/api?id=1%20AND%201=1 BLOCK 301 3970 12279 Entertainment None
+1763338323 10.1.1.25 edward.norton https://example.com/api?id=1%20AND%201=1 BLOCK 302 4313 11054 Entertainment None
+1763338383 172.16.0.50 charlie.brown https://malware-source.org BLOCK 403 440 13596 Suspicious None
+1763338443 10.1.1.26 alice.williams https://malicious-site.com/api?id=1%20AND%201=1 BLOCK 301 2785 18211 Technology Trojan
+1763338503 192.168.1.101 diana.prince https://malicious-site.com BLOCK 500 3398 5710 Suspicious Phishing
+1763338563 172.16.0.51 bob.jones https://linkedin.com ALLOW 302 2796 13407 Technology None
+1763338623 172.16.0.50 john.doe https://malicious-site.com/login?user=admin%27-- ALLOW 200 3621 14873 Technology Phishing
+1763338683 192.168.1.101 fiona.apple https://google.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 4613 13907 Phishing None
+1763338743 10.1.1.25 alice.williams https://phishing-attempt.com ALLOW 302 5018 16906 Business Suspicious
+1763338803 172.16.0.50 alice.williams https://test-site.com BLOCK 404 2251 4962 Shopping None
+1763338863 172.16.0.50 john.doe https://test-site.com BLOCK 404 3872 19177 Malware None
+1763338923 10.1.1.27 john.doe https://amazon.com BLOCK 403 873 10444 Phishing None
+1763338983 10.1.1.26 charlie.brown https://netflix.com/union%20select%20*%20from%20users BLOCK 200 1699 13744 Entertainment None
+1763339043 172.16.0.50 john.doe https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 649 6958 Shopping None
+1763339103 172.16.0.50 jane.smith https://facebook.com BLOCK 302 2102 11906 Social Media None
+1763339163 10.1.1.25 john.doe https://phishing-attempt.com BLOCK 301 735 2433 Malware Suspicious
+1763339223 192.168.1.101 john.doe https://github.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 1690 4320 Social Media None
+1763339283 10.1.1.27 charlie.brown https://reddit.com BLOCK 301 3036 16214 Business None
+1763339343 10.1.1.28 fiona.apple https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 404 3454 17124 Entertainment Spyware
+1763339403 192.168.1.100 alice.williams https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 2734 5729 Technology Malware
+1763339463 10.1.1.25 alice.williams https://malware-source.org ALLOW 404 3772 12489 Suspicious None
+1763339523 10.1.1.26 edward.norton https://netflix.com ALLOW 500 2105 6053 Entertainment None
+1763339583 10.1.1.25 alice.williams https://suspicious-domain.net BLOCK 302 2847 19380 Phishing Trojan
+1763339643 192.168.1.100 charlie.brown https://reddit.com/union%20select%20*%20from%20users ALLOW 500 1668 11284 Technology None
+1763339703 192.168.1.101 diana.prince https://github.com ALLOW 403 2404 4621 Entertainment None
+1763339763 10.1.1.28 alice.williams https://youtube.com BLOCK 200 3454 9393 Phishing None
+1763339823 192.168.1.101 alice.williams https://test-site.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 500 4754 11825 Shopping None
+1763339883 10.1.1.25 john.doe https://youtube.com ALLOW 404 942 16186 Technology None
+1763339943 10.1.1.27 charlie.brown https://suspicious-domain.net/api?id=1%20AND%201=1 ALLOW 500 937 7351 Social Media Spyware
+1763340003 192.168.1.101 john.doe https://reddit.com/login?user=admin%27-- ALLOW 500 4014 13027 Phishing None
+1763340063 10.1.1.28 john.doe https://example.com BLOCK 404 5081 8518 Shopping None
+1763340123 172.16.0.50 jane.smith https://suspicious-domain.net/api?id=1%20AND%201=1 BLOCK 301 2191 13252 Suspicious Suspicious
+1763340183 192.168.1.100 charlie.brown https://reddit.com ALLOW 403 208 2795 Phishing None
+1763340243 10.1.1.28 alice.williams https://example.com BLOCK 404 696 6469 Technology None
+1763340303 10.1.1.26 fiona.apple https://netflix.com/union%20select%20*%20from%20users ALLOW 200 4427 14255 Shopping None
+1763340363 192.168.1.101 edward.norton https://github.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 759 7125 Malware None
+1763340423 10.1.1.28 jane.smith https://amazon.com ALLOW 403 1108 16686 Shopping None
+1763340483 10.1.1.26 alice.williams https://amazon.com/login?user=admin%27-- ALLOW 301 2270 12567 Shopping None
+1763340543 10.1.1.25 jane.smith https://github.com BLOCK 403 3152 18277 Business None
+1763340603 172.16.0.51 fiona.apple https://test-site.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 3391 7577 Technology Spyware
+1763340663 10.1.1.28 fiona.apple https://malware-source.org BLOCK 404 4756 11104 Technology None
+1763340723 172.16.0.50 diana.prince https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 2493 820 Shopping None
+1763340783 10.1.1.28 edward.norton https://youtube.com ALLOW 403 1084 10078 Business None
+1763340843 10.1.1.28 fiona.apple https://google.com ALLOW 301 4763 18252 Entertainment None
+1763340903 192.168.1.100 alice.williams https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 1557 3547 Entertainment None
+1763340963 192.168.1.101 edward.norton https://youtube.com BLOCK 403 3252 8930 Suspicious None
+1763341023 10.1.1.26 charlie.brown https://facebook.com/api?id=1%20AND%201=1 ALLOW 302 3381 20110 Entertainment None
+1763341083 192.168.1.101 alice.williams https://github.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 2469 12682 Suspicious None
+1763341143 172.16.0.51 jane.smith https://test-site.com/union%20select%20*%20from%20users ALLOW 200 1799 15087 Entertainment None
+1763341203 10.1.1.27 bob.jones https://example.com/api?id=1%20AND%201=1 ALLOW 302 2109 20402 Phishing None
+1763341263 192.168.1.101 fiona.apple https://phishing-attempt.com/api?id=1%20AND%201=1 ALLOW 403 4812 3798 Phishing Trojan
+1763341323 192.168.1.101 bob.jones https://twitter.com ALLOW 200 1453 8388 Entertainment Trojan
+1763341383 192.168.1.101 alice.williams https://youtube.com BLOCK 500 4970 11139 Suspicious None
+1763341443 10.1.1.26 john.doe https://netflix.com BLOCK 404 4327 9489 Suspicious None
+1763341503 192.168.1.101 alice.williams https://malicious-site.com BLOCK 500 3842 20268 Malware Spyware
+1763341563 10.1.1.27 bob.jones https://sample-url.com/login?user=admin%27-- ALLOW 200 2375 10228 Phishing Phishing
+1763341623 192.168.1.101 charlie.brown https://amazon.com BLOCK 200 3758 12990 Social Media None
+1763341683 10.1.1.27 diana.prince https://test-site.com BLOCK 500 2433 20392 Business None
+1763341743 10.1.1.25 bob.jones https://amazon.com ALLOW 500 4482 13310 Entertainment None
+1763341803 192.168.1.101 bob.jones https://demo-page.com BLOCK 403 1164 6407 Malware None
+1763341863 10.1.1.26 edward.norton https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 969 5196 Entertainment None
+1763341923 192.168.1.100 alice.williams https://test-site.com BLOCK 302 4903 17223 Phishing None
+1763341983 192.168.1.100 alice.williams https://example.com/union%20select%20*%20from%20users BLOCK 403 4247 6943 Business None
+1763342043 10.1.1.26 edward.norton https://malware-source.org/api?id=1%20AND%201=1 ALLOW 200 3152 9952 Technology None
+1763342103 192.168.1.101 charlie.brown https://demo-page.com/api?id=1%20AND%201=1 ALLOW 404 4584 12282 Malware None
+1763342163 10.1.1.25 diana.prince https://reddit.com ALLOW 403 2509 2133 Social Media None
+1763342223 172.16.0.50 jane.smith https://sample-url.com/api?id=1%20AND%201=1 BLOCK 301 3270 13637 Malware None
+1763342283 10.1.1.28 charlie.brown https://test-site.com ALLOW 403 2901 16672 Business None
+1763342343 10.1.1.28 charlie.brown https://phishing-attempt.com ALLOW 500 3802 17400 Business Malware
+1763342403 172.16.0.50 fiona.apple https://google.com/login?user=admin%27-- ALLOW 404 3181 6510 Social Media None
+1763342463 192.168.1.101 alice.williams https://sample-url.com ALLOW 302 4471 13837 Suspicious None
+1763342523 192.168.1.100 jane.smith https://malware-source.org ALLOW 301 3077 5468 Social Media None
+1763342583 10.1.1.27 edward.norton https://example.com BLOCK 500 4373 7113 Entertainment Trojan
+1763342643 10.1.1.28 fiona.apple https://facebook.com ALLOW 403 1318 2570 Phishing None
+1763342703 10.1.1.25 alice.williams https://facebook.com/login?user=admin%27-- ALLOW 403 2197 8118 Shopping None
+1763342763 10.1.1.27 charlie.brown https://phishing-attempt.com ALLOW 301 3293 7720 Business Trojan
+1763342823 192.168.1.101 fiona.apple https://test-site.com ALLOW 200 4185 18172 Entertainment Spyware
+1763342883 192.168.1.100 alice.williams https://twitter.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 1795 11660 Social Media None
+1763342943 192.168.1.101 alice.williams https://linkedin.com/union%20select%20*%20from%20users BLOCK 301 536 5030 Entertainment None
+1763343003 10.1.1.25 bob.jones https://reddit.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 2983 13570 Malware None
+1763343063 10.1.1.26 bob.jones https://google.com BLOCK 301 4082 6901 Entertainment None
+1763343123 10.1.1.28 bob.jones https://github.com/login?user=admin%27-- BLOCK 404 2530 8617 Malware None
+1763343183 10.1.1.25 edward.norton https://example.com BLOCK 403 4742 9796 Phishing None
+1763343243 192.168.1.101 fiona.apple https://suspicious-domain.net/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 1273 7610 Malware Phishing
+1763343303 10.1.1.27 bob.jones https://malicious-site.com ALLOW 301 4331 9080 Malware Suspicious
+1763343363 192.168.1.101 fiona.apple https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 1756 18962 Technology Phishing
+1763343423 192.168.1.100 alice.williams https://netflix.com ALLOW 302 2205 10202 Entertainment Phishing
+1763343483 10.1.1.27 charlie.brown https://phishing-attempt.com ALLOW 404 3659 3335 Social Media Phishing
+1763343543 172.16.0.50 edward.norton https://youtube.com ALLOW 301 986 9247 Social Media Malware
+1763343603 172.16.0.50 bob.jones https://facebook.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 302 1190 19778 Business None
+1763343663 10.1.1.25 edward.norton https://twitter.com BLOCK 404 3851 906 Technology None
+1763343723 10.1.1.28 fiona.apple https://malware-source.org BLOCK 404 420 20438 Social Media None
+1763343783 192.168.1.101 fiona.apple https://netflix.com ALLOW 301 651 2023 Suspicious None
+1763343843 172.16.0.50 diana.prince https://sample-url.com/login?user=admin%27-- ALLOW 200 4077 17517 Business None
+1763343903 172.16.0.51 edward.norton https://demo-page.com ALLOW 200 3325 1245 Technology None
+1763343963 172.16.0.51 john.doe https://sample-url.com/union%20select%20*%20from%20users BLOCK 403 1100 12944 Technology None
+1763344023 172.16.0.51 fiona.apple https://linkedin.com BLOCK 200 4841 3703 Shopping None
+1763344083 192.168.1.101 john.doe https://youtube.com BLOCK 301 2520 1008 Social Media None
+1763344143 10.1.1.26 jane.smith https://stackoverflow.com/login?user=admin%27-- BLOCK 500 4339 4055 Technology Suspicious
+1763344203 10.1.1.27 charlie.brown https://example.com BLOCK 200 1039 10523 Technology None
+1763344263 10.1.1.27 edward.norton https://youtube.com/union%20select%20*%20from%20users BLOCK 403 167 12475 Shopping None
+1763344323 192.168.1.101 diana.prince https://github.com/union%20select%20*%20from%20users ALLOW 200 755 19813 Business None
+1763344383 10.1.1.27 edward.norton https://suspicious-domain.net ALLOW 302 2134 9693 Business Phishing
+1763344443 10.1.1.28 charlie.brown https://amazon.com ALLOW 302 4857 12645 Malware None
+1763344503 10.1.1.25 charlie.brown https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 2291 923 Phishing None
+1763344563 192.168.1.101 john.doe https://phishing-attempt.com ALLOW 301 3427 8317 Malware Malware
+1763344623 10.1.1.28 diana.prince https://test-site.com BLOCK 301 3657 12235 Social Media None
+1763344683 192.168.1.100 bob.jones https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 3331 19602 Entertainment None
+1763344743 192.168.1.101 alice.williams https://facebook.com BLOCK 301 875 4502 Shopping None
+1763344803 192.168.1.100 edward.norton https://google.com ALLOW 200 3447 7650 Malware None
+1763344863 10.1.1.27 edward.norton https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 1264 17565 Technology None
+1763344923 192.168.1.101 alice.williams https://malicious-site.com/union%20select%20*%20from%20users BLOCK 404 3250 8319 Technology Spyware
+1763344983 192.168.1.101 edward.norton https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 4834 13392 Business None
+1763345043 10.1.1.25 bob.jones https://reddit.com/login?user=admin%27-- ALLOW 302 2673 11027 Social Media None
+1763345103 10.1.1.28 charlie.brown https://twitter.com/api?id=1%20AND%201=1 ALLOW 500 4096 16338 Social Media None
+1763345163 10.1.1.28 bob.jones https://example.com/union%20select%20*%20from%20users ALLOW 301 2267 728 Entertainment None
+1763345223 172.16.0.51 john.doe https://reddit.com BLOCK 302 2837 789 Business None
+1763345283 192.168.1.100 bob.jones https://test-site.com/login?user=admin%27-- BLOCK 404 943 12108 Phishing Trojan
+1763345343 10.1.1.27 alice.williams https://sample-url.com/login?user=admin%27-- BLOCK 403 2199 19845 Business None
+1763345403 192.168.1.100 edward.norton https://github.com ALLOW 200 4079 7757 Malware None
+1763345463 10.1.1.25 jane.smith https://malicious-site.com BLOCK 200 2265 4837 Malware Trojan
+1763345523 192.168.1.101 bob.jones https://google.com BLOCK 301 4108 5348 Malware None
+1763345583 10.1.1.27 jane.smith https://suspicious-domain.net/api?id=1%20AND%201=1 BLOCK 302 3417 9469 Entertainment Trojan
+1763345643 172.16.0.51 edward.norton https://sample-url.com BLOCK 403 4225 18071 Entertainment None
+1763345703 10.1.1.25 jane.smith https://example.com/api?id=1%20AND%201=1 BLOCK 302 4700 17779 Phishing None
+1763345763 10.1.1.26 jane.smith https://test-site.com/login?user=admin%27-- ALLOW 301 2506 3956 Malware None
+1763345823 10.1.1.27 charlie.brown https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 2282 13430 Entertainment None
+1763345883 172.16.0.51 jane.smith https://twitter.com/union%20select%20*%20from%20users BLOCK 403 286 19626 Phishing None
+1763345943 172.16.0.50 bob.jones https://example.com BLOCK 403 869 12603 Malware None
+1763346003 10.1.1.25 fiona.apple https://linkedin.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 4510 13795 Phishing None
+1763346063 172.16.0.51 bob.jones https://linkedin.com/login?user=admin%27-- ALLOW 301 1879 7564 Suspicious None
+1763346123 172.16.0.51 edward.norton https://linkedin.com/union%20select%20*%20from%20users ALLOW 403 4613 18402 Suspicious Phishing
+1763346183 10.1.1.27 diana.prince https://amazon.com/api?id=1%20AND%201=1 ALLOW 404 2857 1329 Entertainment None
+1763346243 172.16.0.51 fiona.apple https://linkedin.com ALLOW 200 1329 10219 Social Media None
+1763346303 10.1.1.28 john.doe https://youtube.com BLOCK 500 2162 16061 Shopping None
+1763346363 10.1.1.28 fiona.apple https://example.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 349 13095 Technology None
+1763346423 172.16.0.51 alice.williams https://google.com BLOCK 200 3023 2125 Phishing None
+1763346483 192.168.1.100 bob.jones https://suspicious-domain.net/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 3424 3345 Social Media Phishing
+1763346543 192.168.1.101 edward.norton https://example.com/login?user=admin%27-- BLOCK 302 1994 8933 Technology None
+1763346603 10.1.1.25 charlie.brown https://facebook.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 657 15302 Technology None
+1763346663 10.1.1.27 edward.norton https://demo-page.com BLOCK 200 513 5684 Business None
+1763346723 10.1.1.27 bob.jones https://example.com/api?id=1%20AND%201=1 BLOCK 404 2230 8084 Malware None
+1763346783 10.1.1.26 diana.prince https://google.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 507 11016 Business None
+1763346843 10.1.1.27 alice.williams https://reddit.com ALLOW 200 3069 17428 Business None
+1763346903 172.16.0.50 jane.smith https://suspicious-domain.net ALLOW 403 4615 11721 Technology Malware
+1763346963 10.1.1.26 diana.prince https://youtube.com/login?user=admin%27-- BLOCK 403 3155 19651 Shopping None
+1763347023 192.168.1.100 alice.williams https://linkedin.com/api?id=1%20AND%201=1 ALLOW 403 3779 12800 Business None
+1763347083 192.168.1.100 alice.williams https://malicious-site.com BLOCK 404 4500 2362 Technology Spyware
+1763347143 10.1.1.28 alice.williams https://facebook.com ALLOW 404 2406 6562 Technology None
+1763347203 10.1.1.25 charlie.brown https://sample-url.com/union%20select%20*%20from%20users BLOCK 301 1427 16357 Entertainment None
+1763347263 192.168.1.100 fiona.apple https://github.com BLOCK 302 1809 11828 Entertainment None
+1763347323 172.16.0.50 diana.prince https://test-site.com BLOCK 404 4812 8829 Technology None
+1763347383 10.1.1.26 john.doe https://reddit.com/login?user=admin%27-- ALLOW 404 4222 953 Shopping None
+1763347443 10.1.1.27 fiona.apple https://twitter.com/login?user=admin%27-- BLOCK 500 3002 3020 Suspicious Malware
+1763347503 10.1.1.26 edward.norton https://netflix.com ALLOW 500 2366 16148 Malware None
+1763347563 10.1.1.25 john.doe https://sample-url.com/union%20select%20*%20from%20users BLOCK 500 3647 19725 Shopping None
+1763347623 10.1.1.27 fiona.apple https://stackoverflow.com/api?id=1%20AND%201=1 BLOCK 302 1512 7057 Suspicious None
+1763347683 172.16.0.50 charlie.brown https://malware-source.org ALLOW 302 2350 10277 Business None
+1763347743 10.1.1.27 charlie.brown https://malicious-site.com/login?user=admin%27-- BLOCK 403 4283 3775 Malware Spyware
+1763347803 10.1.1.28 fiona.apple https://malicious-site.com/login?user=admin%27-- ALLOW 302 175 10987 Malware Phishing
+1763347863 10.1.1.27 john.doe https://example.com/login?user=admin%27-- ALLOW 404 2414 12620 Phishing None
+1763347923 172.16.0.51 jane.smith https://phishing-attempt.com/api?id=1%20AND%201=1 BLOCK 500 4498 11889 Shopping Spyware
+1763347983 10.1.1.25 alice.williams https://sample-url.com/api?id=1%20AND%201=1 BLOCK 200 4717 9781 Suspicious None
+1763348043 10.1.1.27 diana.prince https://demo-page.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 483 3302 Entertainment None
+1763348103 10.1.1.28 jane.smith https://reddit.com/api?id=1%20AND%201=1 ALLOW 403 301 8909 Phishing None
+1763348163 172.16.0.50 alice.williams https://github.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 301 1996 15092 Entertainment None
+1763348223 10.1.1.25 edward.norton https://linkedin.com/union%20select%20*%20from%20users BLOCK 500 3582 2225 Technology None
+1763348283 172.16.0.50 alice.williams https://stackoverflow.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 4284 9994 Entertainment None
+1763348343 192.168.1.101 alice.williams https://sample-url.com/api?id=1%20AND%201=1 ALLOW 404 1256 13319 Phishing None
+1763348403 172.16.0.50 jane.smith https://facebook.com ALLOW 500 2133 4777 Entertainment None
+1763348463 172.16.0.51 fiona.apple https://reddit.com ALLOW 302 5012 1076 Shopping None
+1763348523 10.1.1.27 alice.williams https://example.com/login?user=admin%27-- BLOCK 404 1904 8392 Malware None
+1763348583 10.1.1.25 diana.prince https://github.com ALLOW 302 3585 11690 Technology None
+1763348643 10.1.1.25 jane.smith https://malicious-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 404 4127 17754 Social Media Suspicious
+1763348703 10.1.1.28 edward.norton https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 683 7248 Social Media None
+1763348763 172.16.0.51 jane.smith https://google.com/login?user=admin%27-- ALLOW 404 1746 15167 Malware None
+1763348823 172.16.0.50 john.doe https://stackoverflow.com ALLOW 200 309 1558 Shopping Malware
+1763348883 172.16.0.51 diana.prince https://suspicious-domain.net/api?id=1%20AND%201=1 ALLOW 301 3158 10300 Entertainment Spyware
+1763348943 10.1.1.26 charlie.brown https://suspicious-domain.net BLOCK 404 1955 9392 Malware Trojan
+1763349003 192.168.1.100 alice.williams https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 3442 5119 Phishing None
+1763349063 10.1.1.26 diana.prince https://google.com BLOCK 404 2573 1680 Social Media Spyware
+1763349123 192.168.1.100 alice.williams https://suspicious-domain.net/api?id=1%20AND%201=1 BLOCK 301 2881 9418 Suspicious Trojan
+1763349183 10.1.1.27 alice.williams https://stackoverflow.com/login?user=admin%27-- ALLOW 403 757 8497 Technology None
+1763349243 192.168.1.101 john.doe https://linkedin.com/union%20select%20*%20from%20users BLOCK 403 3824 970 Technology None
+1763349303 10.1.1.26 fiona.apple https://stackoverflow.com/login?user=admin%27-- BLOCK 200 3510 7105 Business None
+1763349363 192.168.1.100 edward.norton https://twitter.com BLOCK 500 4943 16955 Suspicious None
+1763349423 172.16.0.51 jane.smith https://malicious-site.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 500 2689 4886 Technology Spyware
+1763349483 10.1.1.26 charlie.brown https://sample-url.com BLOCK 403 2326 11737 Shopping None
+1763349543 10.1.1.27 charlie.brown https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 2091 12266 Malware None
+1763349603 172.16.0.50 edward.norton https://malware-source.org/api?id=1%20AND%201=1 BLOCK 500 854 5127 Business None
+1763349663 10.1.1.26 jane.smith https://suspicious-domain.net/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 928 8249 Malware Phishing
+1763349723 10.1.1.26 john.doe https://phishing-attempt.com ALLOW 403 1280 4458 Entertainment Suspicious
+1763349783 172.16.0.51 john.doe https://amazon.com BLOCK 404 4172 16417 Suspicious None
+1763349843 192.168.1.101 john.doe https://malicious-site.com/login?user=admin%27-- BLOCK 403 4165 16139 Shopping Suspicious
+1763349903 10.1.1.26 fiona.apple https://github.com ALLOW 301 2598 11369 Shopping None
+1763349963 192.168.1.101 diana.prince https://stackoverflow.com BLOCK 403 3443 1840 Shopping None
+1763350023 10.1.1.25 charlie.brown https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 4202 4623 Business None
+1763350083 172.16.0.50 fiona.apple https://test-site.com ALLOW 301 3550 8802 Suspicious None
+1763350143 172.16.0.51 edward.norton https://demo-page.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 302 1736 11551 Social Media None
+1763350203 10.1.1.25 fiona.apple https://netflix.com/union%20select%20*%20from%20users ALLOW 302 2205 13265 Phishing None
+1763350263 192.168.1.100 john.doe https://netflix.com/login?user=admin%27-- BLOCK 200 115 4693 Technology None
+1763350323 10.1.1.26 john.doe https://netflix.com ALLOW 302 172 19590 Technology None
+1763350383 192.168.1.100 fiona.apple https://linkedin.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 3335 15163 Phishing None
+1763350443 172.16.0.51 jane.smith https://reddit.com BLOCK 403 1732 4077 Suspicious None
+1763350503 172.16.0.50 fiona.apple https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 500 5081 10631 Shopping None
+1763350563 172.16.0.50 alice.williams https://twitter.com/api?id=1%20AND%201=1 BLOCK 403 2523 10154 Phishing None
+1763350623 192.168.1.100 fiona.apple https://test-site.com/api?id=1%20AND%201=1 BLOCK 500 5051 8088 Business None
+1763350683 172.16.0.51 diana.prince https://demo-page.com ALLOW 403 4846 3415 Technology None
+1763350743 10.1.1.25 fiona.apple https://example.com/union%20select%20*%20from%20users BLOCK 200 4322 6371 Entertainment None
+1763350803 192.168.1.101 bob.jones https://sample-url.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 1188 16708 Phishing None
+1763350863 10.1.1.26 charlie.brown https://google.com ALLOW 500 1480 18733 Technology None
+1763350923 192.168.1.100 jane.smith https://facebook.com BLOCK 200 2719 6627 Phishing None
+1763350983 10.1.1.28 fiona.apple https://malicious-site.com ALLOW 404 2403 15030 Social Media Suspicious
+1763351043 172.16.0.51 bob.jones https://sample-url.com/api?id=1%20AND%201=1 BLOCK 500 4557 637 Entertainment None
+1763351103 172.16.0.51 fiona.apple https://linkedin.com BLOCK 500 2323 14359 Phishing None
+1763351163 10.1.1.27 diana.prince https://stackoverflow.com ALLOW 500 217 9280 Shopping None
+1763351223 10.1.1.26 bob.jones https://test-site.com/login?user=admin%27-- ALLOW 200 2736 9428 Suspicious None
+1763351283 172.16.0.50 alice.williams https://facebook.com ALLOW 500 1499 3341 Malware None
+1763351343 172.16.0.51 jane.smith https://youtube.com/union%20select%20*%20from%20users ALLOW 404 1031 15366 Shopping None
+1763351403 10.1.1.26 bob.jones https://suspicious-domain.net/union%20select%20*%20from%20users ALLOW 302 739 4982 Shopping Malware
+1763351463 10.1.1.25 bob.jones https://sample-url.com BLOCK 404 2413 7426 Shopping None
+1763351523 192.168.1.100 jane.smith https://malware-source.org ALLOW 200 2491 3990 Technology None
+1763351583 192.168.1.101 alice.williams https://facebook.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 3816 11382 Business None
+1763351643 172.16.0.51 john.doe https://google.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 1564 14167 Malware None
+1763351703 172.16.0.51 diana.prince https://stackoverflow.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 302 3544 16336 Business None
+1763351763 172.16.0.50 john.doe https://github.com/union%20select%20*%20from%20users ALLOW 500 589 775 Phishing None
+1763351823 10.1.1.26 edward.norton https://suspicious-domain.net ALLOW 500 3353 9466 Suspicious Spyware
+1763351883 10.1.1.25 john.doe https://malicious-site.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 2251 11627 Malware Suspicious
+1763351943 10.1.1.28 bob.jones https://example.com/login?user=admin%27-- BLOCK 200 4560 15247 Phishing None
+1763352003 192.168.1.101 diana.prince https://youtube.com BLOCK 404 4140 3094 Entertainment None
+1763352063 192.168.1.100 alice.williams https://netflix.com/union%20select%20*%20from%20users ALLOW 403 4376 20423 Business None
+1763352123 10.1.1.26 john.doe https://facebook.com/union%20select%20*%20from%20users ALLOW 301 4753 16191 Technology None
+1763352183 172.16.0.51 john.doe https://test-site.com BLOCK 403 4034 13916 Social Media Spyware
+1763352243 192.168.1.101 fiona.apple https://linkedin.com BLOCK 200 3931 10503 Malware None
+1763352303 192.168.1.100 jane.smith https://malicious-site.com/union%20select%20*%20from%20users BLOCK 404 3076 1493 Shopping Malware
+1763352363 172.16.0.50 alice.williams https://suspicious-domain.net ALLOW 500 3226 5947 Entertainment Spyware
+1763352423 10.1.1.27 fiona.apple https://malicious-site.com ALLOW 403 893 13591 Technology Phishing
+1763352483 10.1.1.28 jane.smith https://malicious-site.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 1265 16810 Technology Spyware
+1763352543 172.16.0.51 charlie.brown https://twitter.com ALLOW 500 1961 4275 Business None
+1763352603 192.168.1.101 john.doe https://demo-page.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 301 1135 17527 Suspicious None
+1763352663 172.16.0.50 edward.norton https://test-site.com/api?id=1%20AND%201=1 BLOCK 301 2050 15481 Social Media None
+1763352723 192.168.1.100 diana.prince https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 3282 7520 Suspicious None
+1763352783 192.168.1.101 bob.jones https://twitter.com BLOCK 301 1064 7393 Business None
+1763352843 192.168.1.100 fiona.apple https://reddit.com/api?id=1%20AND%201=1 BLOCK 302 1363 18890 Technology None
+1763352903 172.16.0.50 jane.smith https://example.com/union%20select%20*%20from%20users BLOCK 500 1638 13170 Technology None
+1763352963 192.168.1.100 bob.jones https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 302 3071 18096 Shopping None
+1763353023 192.168.1.101 alice.williams https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 500 1416 14245 Malware None
+1763353083 192.168.1.101 charlie.brown https://netflix.com BLOCK 302 1161 15035 Entertainment None
+1763353143 192.168.1.100 bob.jones https://facebook.com ALLOW 404 3880 3972 Shopping None
+1763353203 10.1.1.26 edward.norton https://reddit.com/login?user=admin%27-- ALLOW 500 2326 3111 Social Media None
+1763353263 10.1.1.28 alice.williams https://facebook.com/api?id=1%20AND%201=1 ALLOW 404 1214 17427 Phishing None
+1763353323 10.1.1.25 charlie.brown https://facebook.com ALLOW 302 1938 11941 Shopping None
+1763353383 172.16.0.51 diana.prince https://test-site.com/api?id=1%20AND%201=1 ALLOW 403 599 10273 Suspicious None
+1763353443 10.1.1.26 jane.smith https://phishing-attempt.com BLOCK 403 3928 11994 Technology Malware
+1763353503 10.1.1.25 alice.williams https://facebook.com ALLOW 500 3043 3742 Social Media None
+1763353563 172.16.0.51 bob.jones https://linkedin.com BLOCK 404 1053 14512 Social Media None
+1763353623 10.1.1.26 fiona.apple https://youtube.com ALLOW 403 276 3107 Technology None
+1763353683 10.1.1.25 bob.jones https://facebook.com BLOCK 403 4117 3861 Social Media None
+1763353743 10.1.1.28 fiona.apple https://facebook.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 3070 19901 Suspicious None
+1763353803 10.1.1.27 jane.smith https://stackoverflow.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 2253 20499 Social Media None
+1763353863 10.1.1.25 jane.smith https://malicious-site.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 625 11159 Social Media Suspicious
+1763353923 10.1.1.26 jane.smith https://malicious-site.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 354 18500 Technology Trojan
+1763353983 172.16.0.50 edward.norton https://amazon.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 3699 5471 Shopping None
+1763354043 10.1.1.26 alice.williams https://example.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 200 1987 15161 Technology None
+1763354103 10.1.1.28 edward.norton https://amazon.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 668 8485 Shopping None
+1763354163 10.1.1.28 john.doe https://amazon.com BLOCK 302 408 13674 Social Media None
+1763354223 192.168.1.100 alice.williams https://facebook.com BLOCK 200 883 11771 Shopping None
+1763354283 192.168.1.100 bob.jones https://malware-source.org/api?id=1%20AND%201=1 BLOCK 200 1415 17568 Business None
+1763354343 192.168.1.101 jane.smith https://github.com BLOCK 200 1669 16601 Shopping None
+1763354403 10.1.1.28 edward.norton https://example.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 377 16852 Entertainment None
+1763354463 10.1.1.28 charlie.brown https://youtube.com ALLOW 301 827 1173 Shopping None
+1763354523 172.16.0.50 jane.smith https://suspicious-domain.net ALLOW 403 3584 2633 Malware Phishing
+1763354583 192.168.1.100 edward.norton https://reddit.com BLOCK 404 1783 4444 Malware None
+1763354643 10.1.1.26 alice.williams https://stackoverflow.com BLOCK 301 4468 2418 Suspicious None
+1763354703 10.1.1.28 edward.norton https://stackoverflow.com/union%20select%20*%20from%20users ALLOW 500 4742 13979 Social Media None
+1763354763 172.16.0.51 diana.prince https://reddit.com ALLOW 404 2640 11248 Malware None
+1763354823 172.16.0.50 diana.prince https://github.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 404 5054 18352 Social Media None
+1763354883 192.168.1.100 fiona.apple https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 471 15561 Shopping None
+1763354943 192.168.1.101 fiona.apple https://sample-url.com ALLOW 302 3525 3526 Phishing None
+1763355003 10.1.1.26 charlie.brown https://facebook.com/login?user=admin%27-- ALLOW 302 1189 14080 Social Media None
+1763355063 10.1.1.27 edward.norton https://test-site.com ALLOW 301 4598 1473 Social Media None
+1763355123 10.1.1.26 alice.williams https://github.com/api?id=1%20AND%201=1 ALLOW 404 3560 4580 Phishing None
+1763355183 10.1.1.26 diana.prince https://amazon.com ALLOW 404 2533 7577 Social Media None
+1763355243 192.168.1.100 diana.prince https://google.com ALLOW 302 1350 841 Business None
+1763355303 10.1.1.28 edward.norton https://github.com/login?user=admin%27-- BLOCK 403 812 18046 Business None
+1763355363 192.168.1.100 jane.smith https://youtube.com/login?user=admin%27-- BLOCK 403 1317 16171 Suspicious None
+1763355423 192.168.1.100 alice.williams https://reddit.com BLOCK 404 3965 3671 Entertainment None
+1763355483 172.16.0.50 john.doe https://phishing-attempt.com/union%20select%20*%20from%20users ALLOW 404 1466 15398 Social Media Spyware
+1763355543 192.168.1.101 charlie.brown https://malicious-site.com ALLOW 200 2318 2551 Shopping Suspicious
+1763355603 10.1.1.27 diana.prince https://reddit.com/union%20select%20*%20from%20users BLOCK 404 571 2954 Entertainment None
+1763355663 10.1.1.28 bob.jones https://facebook.com ALLOW 302 3094 9822 Suspicious None
+1763355723 10.1.1.27 charlie.brown https://stackoverflow.com ALLOW 301 4879 14507 Shopping None
+1763355783 172.16.0.50 john.doe https://malicious-site.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 4415 15673 Malware Spyware
+1763355843 192.168.1.100 jane.smith https://suspicious-domain.net BLOCK 200 4150 15774 Shopping Malware
+1763355903 192.168.1.100 fiona.apple https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 403 3950 11219 Shopping None
+1763355963 10.1.1.25 alice.williams https://netflix.com/api?id=1%20AND%201=1 BLOCK 404 3456 16692 Malware None
+1763356023 10.1.1.28 john.doe https://demo-page.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 3130 19763 Shopping None
+1763356083 10.1.1.25 diana.prince https://suspicious-domain.net/union%20select%20*%20from%20users BLOCK 200 4984 16284 Social Media Malware
+1763356143 10.1.1.27 diana.prince https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 1360 5618 Entertainment None
+1763356203 192.168.1.100 charlie.brown https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 3680 16602 Technology None
+1763356263 192.168.1.101 john.doe https://stackoverflow.com ALLOW 301 1846 3367 Technology None
+1763356323 10.1.1.27 charlie.brown https://stackoverflow.com ALLOW 404 2127 9626 Malware None
+1763356383 10.1.1.27 john.doe https://test-site.com/api?id=1%20AND%201=1 ALLOW 200 4656 18826 Business None
+1763356443 10.1.1.27 alice.williams https://google.com ALLOW 200 4323 8558 Suspicious None
+1763356503 192.168.1.101 edward.norton https://suspicious-domain.net/api?id=1%20AND%201=1 ALLOW 500 4906 11804 Suspicious Phishing
+1763356563 10.1.1.27 charlie.brown https://suspicious-domain.net/union%20select%20*%20from%20users ALLOW 200 3503 9644 Shopping Phishing
+1763356623 192.168.1.100 charlie.brown https://test-site.com ALLOW 403 1290 4737 Malware None
+1763356683 192.168.1.101 alice.williams https://sample-url.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 180 8811 Malware None
+1763356743 10.1.1.27 fiona.apple https://malicious-site.com ALLOW 301 675 14915 Technology Malware
+1763356803 10.1.1.26 edward.norton https://phishing-attempt.com BLOCK 302 116 1672 Suspicious Trojan
+1763356863 172.16.0.51 john.doe https://suspicious-domain.net/api?id=1%20AND%201=1 BLOCK 302 1562 5937 Entertainment Spyware
+1763356923 10.1.1.27 diana.prince https://github.com BLOCK 301 2864 19771 Phishing None
+1763356983 10.1.1.27 fiona.apple https://example.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 4358 9619 Shopping None
+1763357043 10.1.1.26 diana.prince https://example.com/union%20select%20*%20from%20users BLOCK 200 2296 16584 Shopping None
+1763357103 172.16.0.50 charlie.brown https://malware-source.org/api?id=1%20AND%201=1 BLOCK 404 1526 3138 Entertainment None
+1763357163 10.1.1.27 jane.smith https://amazon.com/api?id=1%20AND%201=1 BLOCK 500 4242 13200 Entertainment None
+1763357223 10.1.1.27 jane.smith https://test-site.com BLOCK 404 4403 15449 Entertainment None
+1763357283 172.16.0.50 jane.smith https://demo-page.com/login?user=admin%27-- ALLOW 403 2220 12726 Entertainment None
+1763357343 172.16.0.51 edward.norton https://facebook.com BLOCK 404 1130 17802 Phishing None
+1763357403 172.16.0.51 jane.smith https://youtube.com ALLOW 301 4001 17637 Social Media None
+1763357463 10.1.1.28 edward.norton https://malicious-site.com/api?id=1%20AND%201=1 ALLOW 404 2001 12258 Suspicious Phishing
+1763357523 10.1.1.25 alice.williams https://malware-source.org/union%20select%20*%20from%20users BLOCK 404 349 2646 Business None
+1763357583 10.1.1.25 jane.smith https://twitter.com ALLOW 500 1282 14000 Social Media None
+1763357643 10.1.1.27 fiona.apple https://malware-source.org/union%20select%20*%20from%20users ALLOW 403 3848 2549 Business None
+1763357703 10.1.1.26 alice.williams https://example.com BLOCK 404 4122 17670 Social Media None
+1763357763 10.1.1.26 edward.norton https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 1134 4955 Technology None
+1763357823 192.168.1.100 edward.norton https://facebook.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 500 3080 18454 Suspicious None
+1763357883 192.168.1.100 bob.jones https://facebook.com/api?id=1%20AND%201=1 BLOCK 301 897 19459 Malware None
+1763357943 172.16.0.51 alice.williams https://linkedin.com ALLOW 302 1316 3272 Technology None
+1763358003 10.1.1.27 diana.prince https://twitter.com ALLOW 200 329 16653 Technology None
+1763358063 172.16.0.50 jane.smith https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 2085 11549 Technology None
+1763358123 10.1.1.27 edward.norton https://reddit.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 1685 7890 Technology None
+1763358183 172.16.0.50 charlie.brown https://test-site.com ALLOW 403 2023 10277 Technology None
+1763358243 10.1.1.27 jane.smith https://malicious-site.com/login?user=admin%27-- BLOCK 403 3955 7246 Suspicious Suspicious
+1763358303 192.168.1.101 bob.jones https://twitter.com ALLOW 302 3299 15129 Social Media None
+1763358363 192.168.1.101 edward.norton https://reddit.com/union%20select%20*%20from%20users BLOCK 301 4041 7964 Technology None
+1763358423 172.16.0.51 bob.jones https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 785 1041 Business None
+1763358483 10.1.1.27 charlie.brown https://amazon.com ALLOW 500 295 12042 Technology None
+1763358543 10.1.1.27 edward.norton https://youtube.com ALLOW 301 1628 19469 Social Media None
+1763358603 10.1.1.28 john.doe https://reddit.com BLOCK 500 1420 18979 Social Media None
+1763358663 10.1.1.28 bob.jones https://phishing-attempt.com BLOCK 404 3613 16209 Social Media Malware
+1763358723 192.168.1.100 edward.norton https://stackoverflow.com BLOCK 404 2676 19192 Business None
+1763358783 172.16.0.51 john.doe https://github.com ALLOW 403 1218 8238 Malware None
+1763358843 192.168.1.100 edward.norton https://netflix.com ALLOW 404 1753 6228 Suspicious None
+1763358903 10.1.1.27 alice.williams https://twitter.com ALLOW 500 3250 14121 Social Media None
+1763358963 10.1.1.26 bob.jones https://sample-url.com/union%20select%20*%20from%20users BLOCK 301 2561 1864 Social Media None
+1763359023 192.168.1.101 fiona.apple https://facebook.com/union%20select%20*%20from%20users ALLOW 500 897 19689 Phishing None
+1763359083 192.168.1.101 jane.smith https://google.com/union%20select%20*%20from%20users ALLOW 403 283 1278 Suspicious None
+1763359143 10.1.1.26 jane.smith https://github.com/union%20select%20*%20from%20users ALLOW 302 3194 1856 Social Media Trojan
+1763359203 192.168.1.101 alice.williams https://twitter.com BLOCK 302 4698 7214 Malware None
+1763359263 10.1.1.27 alice.williams https://sample-url.com BLOCK 500 3242 18054 Business None
+1763359323 172.16.0.50 alice.williams https://youtube.com BLOCK 301 3281 19924 Phishing None
+1763359383 192.168.1.100 charlie.brown https://facebook.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 4072 19900 Shopping None
+1763359443 10.1.1.28 fiona.apple https://amazon.com ALLOW 404 1680 12351 Business None
+1763359503 10.1.1.27 bob.jones https://malware-source.org ALLOW 301 4748 4662 Suspicious None
+1763359563 10.1.1.25 diana.prince https://netflix.com BLOCK 403 738 11668 Shopping None
+1763359623 10.1.1.27 fiona.apple https://malicious-site.com ALLOW 500 1302 13319 Business Spyware
+1763359683 172.16.0.50 edward.norton https://facebook.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 2196 18592 Shopping None
+1763359743 172.16.0.51 john.doe https://malicious-site.com/union%20select%20*%20from%20users BLOCK 500 4660 743 Social Media Phishing
+1763359803 10.1.1.25 fiona.apple https://github.com BLOCK 404 3680 19786 Entertainment None
+1763359863 10.1.1.26 john.doe https://suspicious-domain.net/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 4545 12017 Shopping Phishing
+1763359923 192.168.1.100 edward.norton https://github.com BLOCK 301 5014 985 Business None
+1763359983 10.1.1.28 edward.norton https://reddit.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 288 1670 Phishing None
+1763360043 192.168.1.101 fiona.apple https://malware-source.org ALLOW 403 1852 9532 Phishing None
+1763360103 10.1.1.28 edward.norton https://youtube.com BLOCK 404 3590 4444 Suspicious None
+1763360163 10.1.1.27 charlie.brown https://phishing-attempt.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 854 3504 Business Trojan
+1763360223 10.1.1.25 diana.prince https://google.com ALLOW 302 113 16406 Shopping None
+1763360283 10.1.1.27 bob.jones https://stackoverflow.com BLOCK 404 1204 12426 Phishing None
+1763360343 192.168.1.101 edward.norton https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 4132 9630 Suspicious None
+1763360403 172.16.0.50 bob.jones https://stackoverflow.com/login?user=admin%27-- BLOCK 200 3977 12675 Phishing None
+1763360463 10.1.1.28 charlie.brown https://example.com/api?id=1%20AND%201=1 ALLOW 500 602 16425 Phishing None
+1763360523 10.1.1.28 edward.norton https://amazon.com/union%20select%20*%20from%20users ALLOW 302 967 12366 Business None
+1763360583 10.1.1.25 edward.norton https://linkedin.com ALLOW 301 1925 6763 Technology None
+1763360643 10.1.1.27 edward.norton https://netflix.com ALLOW 403 2094 8236 Technology None
+1763360703 10.1.1.27 fiona.apple https://test-site.com BLOCK 403 1550 15233 Technology None
+1763360763 172.16.0.50 fiona.apple https://example.com BLOCK 404 553 15983 Malware None
+1763360823 10.1.1.27 john.doe https://phishing-attempt.com BLOCK 500 2067 7991 Phishing Phishing
+1763360883 192.168.1.101 john.doe https://phishing-attempt.com/login?user=admin%27-- ALLOW 403 4319 755 Malware Malware
+1763360943 172.16.0.50 fiona.apple https://sample-url.com BLOCK 500 1951 17682 Phishing None
+1763361003 192.168.1.101 diana.prince https://github.com BLOCK 500 3168 8514 Social Media None
+1763361063 10.1.1.25 diana.prince https://twitter.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 302 3096 7935 Phishing None
+1763361123 172.16.0.50 jane.smith https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 404 2831 16182 Technology None
+1763361183 192.168.1.101 charlie.brown https://youtube.com BLOCK 301 1729 7423 Suspicious None
+1763361243 192.168.1.101 diana.prince https://netflix.com BLOCK 500 5087 18804 Phishing None
+1763361303 172.16.0.50 jane.smith https://demo-page.com BLOCK 200 1201 11392 Shopping None
+1763361363 172.16.0.51 bob.jones https://reddit.com BLOCK 404 2766 13647 Technology None
+1763361423 10.1.1.26 diana.prince https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 2404 8706 Phishing None
+1763361483 172.16.0.51 charlie.brown https://stackoverflow.com/api?id=1%20AND%201=1 BLOCK 404 364 14752 Shopping None
+1763361543 10.1.1.25 alice.williams https://malware-source.org ALLOW 200 3201 17599 Suspicious None
+1763361603 10.1.1.25 jane.smith https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 5059 3428 Technology None
+1763361663 10.1.1.27 diana.prince https://reddit.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 3047 15167 Technology None
+1763361723 172.16.0.51 diana.prince https://suspicious-domain.net/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 393 9173 Business Trojan
+1763361783 10.1.1.26 bob.jones https://twitter.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 4280 11098 Phishing Suspicious
+1763361843 10.1.1.25 john.doe https://example.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 4392 16835 Technology None
+1763361903 192.168.1.100 john.doe https://reddit.com BLOCK 301 947 15363 Suspicious None
+1763361963 10.1.1.25 edward.norton https://twitter.com BLOCK 500 1006 6859 Business None
+1763362023 10.1.1.27 bob.jones https://example.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 2292 10076 Shopping None
+1763362083 10.1.1.26 charlie.brown https://reddit.com BLOCK 301 623 18215 Malware None
+1763362143 192.168.1.100 bob.jones https://phishing-attempt.com BLOCK 403 3197 12759 Malware Phishing
+1763362203 10.1.1.26 bob.jones https://linkedin.com BLOCK 404 4284 4378 Business None
+1763362263 10.1.1.26 john.doe https://malware-source.org/union%20select%20*%20from%20users ALLOW 301 2982 15082 Social Media None
+1763362323 192.168.1.100 john.doe https://phishing-attempt.com BLOCK 404 1633 11786 Entertainment Spyware
+1763362383 172.16.0.50 diana.prince https://sample-url.com ALLOW 404 4386 1333 Technology None
+1763362443 10.1.1.28 edward.norton https://phishing-attempt.com/login?user=admin%27-- ALLOW 200 844 13035 Entertainment Suspicious
+1763362503 10.1.1.25 charlie.brown https://suspicious-domain.net/api?id=1%20AND%201=1 ALLOW 404 3780 15700 Malware Spyware
+1763362563 10.1.1.27 jane.smith https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 200 2644 6666 Suspicious None
+1763362623 172.16.0.50 bob.jones https://malware-source.org BLOCK 200 1349 4597 Business None
+1763362683 10.1.1.26 jane.smith https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 538 3537 Shopping Phishing
+1763362743 10.1.1.28 diana.prince https://linkedin.com ALLOW 404 663 20303 Shopping None
+1763362803 10.1.1.27 john.doe https://facebook.com BLOCK 404 4751 2816 Malware None
+1763362863 10.1.1.26 fiona.apple https://netflix.com/union%20select%20*%20from%20users BLOCK 404 2638 6558 Technology None
+1763362923 192.168.1.101 fiona.apple https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 1862 6719 Social Media None
+1763362983 10.1.1.28 charlie.brown https://twitter.com ALLOW 404 3001 11854 Business None
+1763363043 192.168.1.101 fiona.apple https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 202 16968 Phishing Malware
+1763363103 172.16.0.50 fiona.apple https://malware-source.org ALLOW 500 2523 15438 Suspicious None
+1763363163 192.168.1.101 diana.prince https://amazon.com ALLOW 301 578 11442 Shopping None
+1763363223 10.1.1.26 john.doe https://google.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 1193 2364 Technology None
+1763363283 192.168.1.100 jane.smith https://facebook.com ALLOW 302 1159 9350 Suspicious None
+1763363343 10.1.1.28 edward.norton https://malware-source.org/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 500 3866 12961 Malware None
+1763363403 172.16.0.50 fiona.apple https://demo-page.com/union%20select%20*%20from%20users BLOCK 500 1130 9745 Suspicious Malware
+1763363463 192.168.1.100 diana.prince https://malware-source.org ALLOW 404 4580 5442 Malware None
+1763363523 192.168.1.101 diana.prince https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 4661 9863 Phishing None
+1763363583 10.1.1.27 jane.smith https://amazon.com BLOCK 301 653 7915 Business None
+1763363643 172.16.0.50 edward.norton https://malware-source.org ALLOW 302 1445 5442 Phishing None
+1763363703 192.168.1.101 john.doe https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 593 5234 Malware None
+1763363763 172.16.0.50 bob.jones https://phishing-attempt.com/union%20select%20*%20from%20users BLOCK 403 2934 2204 Technology Suspicious
+1763363823 10.1.1.28 john.doe https://reddit.com BLOCK 301 1348 8504 Entertainment None
+1763363883 10.1.1.26 fiona.apple https://reddit.com/login?user=admin%27-- BLOCK 200 2840 18917 Phishing None
+1763363943 10.1.1.28 diana.prince https://linkedin.com/login?user=admin%27-- BLOCK 403 1505 3795 Social Media None
+1763364003 192.168.1.100 diana.prince https://youtube.com BLOCK 302 2568 12779 Business Suspicious
+1763364063 172.16.0.51 bob.jones https://phishing-attempt.com BLOCK 404 2012 14822 Phishing Trojan
+1763364123 10.1.1.27 diana.prince https://google.com BLOCK 302 1136 10934 Shopping None
+1763364183 10.1.1.25 bob.jones https://stackoverflow.com/login?user=admin%27-- ALLOW 301 3436 18863 Suspicious None
+1763364243 172.16.0.50 john.doe https://malicious-site.com BLOCK 301 3232 18304 Phishing Trojan
+1763364303 172.16.0.50 jane.smith https://google.com BLOCK 301 2128 6372 Technology None
+1763364363 10.1.1.28 fiona.apple https://youtube.com ALLOW 200 585 18103 Entertainment None
+1763364423 10.1.1.27 charlie.brown https://netflix.com ALLOW 302 4321 5102 Phishing None
+1763364483 10.1.1.27 bob.jones https://suspicious-domain.net/union%20select%20*%20from%20users ALLOW 200 3290 14213 Business Trojan
+1763364543 10.1.1.28 charlie.brown https://example.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 2710 11850 Phishing None
+1763364603 10.1.1.28 edward.norton https://test-site.com BLOCK 500 5055 16411 Technology None
+1763364663 172.16.0.51 diana.prince https://netflix.com ALLOW 301 947 14802 Suspicious None
+1763364723 10.1.1.28 alice.williams https://malicious-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 509 4055 Phishing Suspicious
+1763364783 172.16.0.50 jane.smith https://netflix.com BLOCK 301 4640 6537 Malware Phishing
+1763364843 192.168.1.100 jane.smith https://youtube.com BLOCK 200 864 13057 Entertainment None
+1763364903 172.16.0.51 charlie.brown https://reddit.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 404 3311 8176 Business None
+1763364963 192.168.1.101 alice.williams https://netflix.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 3715 16522 Technology None
+1763365023 10.1.1.25 diana.prince https://youtube.com BLOCK 301 1300 18762 Phishing None
+1763365083 10.1.1.28 jane.smith https://phishing-attempt.com ALLOW 302 1608 12901 Entertainment Trojan
+1763365143 10.1.1.28 fiona.apple https://twitter.com ALLOW 301 529 13308 Suspicious None
+1763365203 10.1.1.26 charlie.brown https://google.com ALLOW 500 3954 13607 Technology None
+1763365263 172.16.0.50 diana.prince https://sample-url.com ALLOW 302 1764 4447 Technology None
+1763365323 192.168.1.100 jane.smith https://linkedin.com BLOCK 302 2750 15189 Social Media None
+1763365383 10.1.1.25 diana.prince https://stackoverflow.com BLOCK 302 4019 13339 Entertainment None
+1763365443 10.1.1.26 edward.norton https://example.com ALLOW 301 1645 5452 Malware None
+1763365503 192.168.1.100 fiona.apple https://suspicious-domain.net BLOCK 500 3974 7879 Shopping Suspicious
+1763365563 192.168.1.101 bob.jones https://google.com ALLOW 301 3892 13344 Business None
+1763365623 10.1.1.27 bob.jones https://example.com/union%20select%20*%20from%20users BLOCK 301 2142 12382 Entertainment None
+1763365683 10.1.1.26 john.doe https://reddit.com BLOCK 403 4214 15395 Malware None
+1763365743 192.168.1.100 diana.prince https://phishing-attempt.com ALLOW 301 2435 15599 Business Malware
+1763365803 10.1.1.27 bob.jones https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 301 781 1231 Social Media None
+1763365863 10.1.1.26 alice.williams https://amazon.com/union%20select%20*%20from%20users ALLOW 302 4809 1568 Social Media None
+1763365923 172.16.0.50 bob.jones https://malicious-site.com BLOCK 200 3296 17137 Phishing Trojan
+1763365983 10.1.1.26 edward.norton https://suspicious-domain.net BLOCK 301 3309 13326 Suspicious Trojan
+1763366043 192.168.1.100 charlie.brown https://linkedin.com/login?user=admin%27-- BLOCK 301 1772 2877 Phishing None
+1763366103 10.1.1.27 bob.jones https://github.com/api?id=1%20AND%201=1 ALLOW 200 4406 19909 Entertainment None
+1763366163 10.1.1.28 jane.smith https://sample-url.com BLOCK 301 3323 19782 Technology None
+1763366223 10.1.1.26 charlie.brown https://amazon.com ALLOW 403 4269 18012 Technology None
+1763366283 192.168.1.101 alice.williams https://reddit.com BLOCK 200 314 3658 Phishing None
+1763366343 10.1.1.28 alice.williams https://sample-url.com/login?user=admin%27-- BLOCK 302 1155 14425 Entertainment None
+1763366403 10.1.1.27 bob.jones https://test-site.com ALLOW 200 2185 12135 Technology Spyware
+1763366463 10.1.1.25 fiona.apple https://suspicious-domain.net ALLOW 200 3938 7663 Technology Trojan
+1763366523 10.1.1.25 charlie.brown https://github.com BLOCK 403 1138 19232 Technology None
+1763366583 10.1.1.26 diana.prince https://youtube.com ALLOW 500 3006 10664 Shopping None
+1763366643 10.1.1.28 charlie.brown https://example.com BLOCK 404 526 17555 Technology None
+1763366703 172.16.0.51 charlie.brown https://twitter.com/api?id=1%20AND%201=1 BLOCK 404 2739 1659 Phishing None
+1763366763 10.1.1.27 john.doe https://amazon.com BLOCK 200 1620 9321 Suspicious None
+1763366823 192.168.1.101 alice.williams https://suspicious-domain.net ALLOW 404 1237 18233 Suspicious Malware
+1763366883 172.16.0.51 bob.jones https://demo-page.com BLOCK 404 540 17404 Phishing None
+1763366943 192.168.1.101 edward.norton https://demo-page.com/api?id=1%20AND%201=1 ALLOW 403 4973 16823 Phishing None
+1763367003 192.168.1.100 edward.norton https://malware-source.org ALLOW 500 1964 1459 Entertainment None
+1763367063 192.168.1.100 fiona.apple https://twitter.com/login?user=admin%27-- ALLOW 200 2041 1585 Suspicious None
+1763367123 192.168.1.100 fiona.apple https://twitter.com/union%20select%20*%20from%20users ALLOW 500 1205 20141 Shopping None
+1763367183 10.1.1.28 diana.prince https://google.com/login?user=admin%27-- BLOCK 200 1631 4887 Social Media None
+1763367243 172.16.0.50 charlie.brown https://google.com/union%20select%20*%20from%20users BLOCK 302 4749 15134 Business None
+1763367303 172.16.0.51 jane.smith https://stackoverflow.com/login?user=admin%27-- ALLOW 302 355 19064 Business None
+1763367363 10.1.1.25 john.doe https://malicious-site.com BLOCK 500 4461 7033 Suspicious Phishing
+1763367423 10.1.1.27 john.doe https://example.com BLOCK 404 1651 20368 Social Media None
+1763367483 172.16.0.50 bob.jones https://youtube.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 4926 15331 Technology None
+1763367543 172.16.0.51 jane.smith https://youtube.com BLOCK 200 1743 7223 Business None
+1763367603 10.1.1.27 edward.norton https://reddit.com BLOCK 403 176 15688 Phishing None
+1763367663 172.16.0.50 john.doe https://twitter.com BLOCK 302 2029 7868 Entertainment None
+1763367723 192.168.1.100 fiona.apple https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 2537 1373 Suspicious Trojan
+1763367783 172.16.0.50 fiona.apple https://stackoverflow.com BLOCK 500 2037 14955 Business None
+1763367843 10.1.1.27 diana.prince https://amazon.com/union%20select%20*%20from%20users ALLOW 404 4287 18009 Technology None
+1763367903 10.1.1.28 alice.williams https://sample-url.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 404 3525 14771 Entertainment None
+1763367963 172.16.0.50 diana.prince https://netflix.com ALLOW 403 3349 12947 Phishing None
+1763368023 172.16.0.50 charlie.brown https://test-site.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 3165 2773 Technology None
+1763368083 192.168.1.101 charlie.brown https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 1173 15514 Phishing None
+1763368143 172.16.0.51 diana.prince https://github.com/union%20select%20*%20from%20users BLOCK 404 806 795 Entertainment None
+1763368203 192.168.1.101 alice.williams https://phishing-attempt.com ALLOW 200 4551 12442 Malware Malware
+1763368263 192.168.1.101 bob.jones https://suspicious-domain.net BLOCK 404 2557 14775 Technology Trojan
+1763368323 10.1.1.27 charlie.brown https://phishing-attempt.com BLOCK 200 4124 17948 Entertainment Spyware
+1763368383 192.168.1.101 charlie.brown https://sample-url.com BLOCK 301 3076 3118 Suspicious None
+1763368443 10.1.1.27 john.doe https://example.com ALLOW 301 2505 12736 Business None
+1763368503 10.1.1.26 diana.prince https://phishing-attempt.com/union%20select%20*%20from%20users BLOCK 302 4285 15875 Technology Spyware
+1763368563 10.1.1.28 alice.williams https://youtube.com/login?user=admin%27-- BLOCK 404 3098 16611 Entertainment None
+1763368623 10.1.1.26 charlie.brown https://malicious-site.com/login?user=admin%27-- BLOCK 404 1761 13038 Shopping Malware
+1763368683 172.16.0.51 fiona.apple https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 3661 11140 Phishing None
+1763368743 192.168.1.101 bob.jones https://stackoverflow.com ALLOW 301 3368 15253 Malware None
+1763368803 10.1.1.28 edward.norton https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 200 3243 20127 Suspicious None
+1763368863 172.16.0.51 john.doe https://malware-source.org/admin?id=1%27%20OR%20%271%27=%271 BLOCK 403 598 9077 Business None
+1763368923 10.1.1.25 alice.williams https://malicious-site.com BLOCK 302 2896 9135 Phishing Spyware
+1763368983 10.1.1.25 diana.prince https://reddit.com/login?user=admin%27-- ALLOW 403 4566 12681 Entertainment None
+1763369043 172.16.0.51 john.doe https://malicious-site.com BLOCK 404 2243 13136 Phishing Phishing
+1763369103 172.16.0.50 jane.smith https://example.com ALLOW 301 1935 8619 Shopping None
+1763369163 10.1.1.28 charlie.brown https://github.com/api?id=1%20AND%201=1 BLOCK 403 1177 10981 Suspicious None
+1763369223 172.16.0.51 alice.williams https://test-site.com BLOCK 403 3883 3643 Social Media None
+1763369283 10.1.1.25 diana.prince https://github.com/api?id=1%20AND%201=1 ALLOW 301 3713 2449 Malware None
+1763369343 172.16.0.51 diana.prince https://example.com ALLOW 301 3927 13299 Suspicious None
+1763369403 10.1.1.28 edward.norton https://reddit.com BLOCK 200 3082 16184 Malware None
+1763369463 192.168.1.101 edward.norton https://github.com/api?id=1%20AND%201=1 BLOCK 500 4027 12401 Suspicious None
+1763369523 10.1.1.25 charlie.brown https://github.com BLOCK 404 2532 15078 Technology None
+1763369583 10.1.1.27 charlie.brown https://netflix.com/api?id=1%20AND%201=1 BLOCK 403 443 3830 Malware None
+1763369643 10.1.1.25 alice.williams https://facebook.com ALLOW 200 1625 17185 Malware None
+1763369703 10.1.1.27 diana.prince https://reddit.com/login?user=admin%27-- ALLOW 301 1576 7336 Malware None
+1763369763 10.1.1.28 alice.williams https://phishing-attempt.com BLOCK 500 2189 9963 Phishing Malware
+1763369823 172.16.0.51 fiona.apple https://github.com ALLOW 200 709 6379 Phishing None
+1763369883 10.1.1.25 jane.smith https://demo-page.com/login?user=admin%27-- ALLOW 302 4088 6165 Phishing None
+1763369943 10.1.1.27 fiona.apple https://github.com ALLOW 404 668 18102 Shopping None
+1763370003 10.1.1.27 alice.williams https://facebook.com/login?user=admin%27-- BLOCK 403 1945 2198 Technology None
+1763370063 10.1.1.27 diana.prince https://test-site.com ALLOW 404 1382 10568 Malware None
+1763370123 172.16.0.51 jane.smith https://google.com BLOCK 302 3794 6318 Malware None
+1763370183 192.168.1.101 diana.prince https://google.com ALLOW 302 301 13509 Malware None
+1763370243 192.168.1.101 alice.williams https://netflix.com/login?user=admin%27-- BLOCK 200 1741 1078 Phishing None
+1763370303 10.1.1.25 diana.prince https://sample-url.com BLOCK 403 755 6159 Entertainment None
+1763370363 10.1.1.25 charlie.brown https://github.com BLOCK 200 3117 19619 Malware None
+1763370423 172.16.0.50 bob.jones https://reddit.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 1674 3096 Business None
+1763370483 10.1.1.26 alice.williams https://linkedin.com ALLOW 403 696 14943 Entertainment None
+1763370543 192.168.1.101 alice.williams https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 2018 2685 Business Spyware
+1763370603 10.1.1.28 diana.prince https://phishing-attempt.com ALLOW 301 584 13838 Entertainment Malware
+1763370663 172.16.0.50 edward.norton https://reddit.com/union%20select%20*%20from%20users BLOCK 200 2246 6097 Technology None
+1763370723 192.168.1.101 alice.williams https://demo-page.com/api?id=1%20AND%201=1 ALLOW 302 4247 12906 Social Media None
+1763370783 10.1.1.27 bob.jones https://demo-page.com BLOCK 302 420 14936 Suspicious None
+1763370843 10.1.1.28 diana.prince https://suspicious-domain.net/login?user=admin%27-- BLOCK 200 3555 13902 Suspicious Phishing
+1763370903 192.168.1.101 jane.smith https://netflix.com ALLOW 403 130 12447 Technology None
+1763370963 10.1.1.28 jane.smith https://phishing-attempt.com BLOCK 404 3654 8447 Phishing Suspicious
+1763371023 172.16.0.51 diana.prince https://phishing-attempt.com BLOCK 403 1239 2473 Phishing Malware
+1763371083 10.1.1.25 charlie.brown https://netflix.com ALLOW 404 3380 3138 Malware None
+1763371143 10.1.1.28 fiona.apple https://sample-url.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 404 2455 7471 Shopping None
+1763371203 172.16.0.51 bob.jones https://amazon.com BLOCK 301 3805 17303 Social Media None
+1763371263 10.1.1.25 jane.smith https://reddit.com ALLOW 500 1512 728 Entertainment None
+1763371323 172.16.0.50 diana.prince https://netflix.com BLOCK 301 118 8200 Shopping None
+1763371383 10.1.1.27 alice.williams https://test-site.com/api?id=1%20AND%201=1 BLOCK 301 3648 17807 Entertainment None
+1763371443 172.16.0.51 diana.prince https://linkedin.com ALLOW 301 2667 7387 Social Media None
+1763371503 172.16.0.50 fiona.apple https://malicious-site.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 2738 11411 Technology Trojan
+1763371563 10.1.1.26 jane.smith https://netflix.com BLOCK 404 1354 4006 Phishing None
+1763371623 172.16.0.50 edward.norton https://malware-source.org/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 4866 8861 Technology None
+1763371683 10.1.1.26 jane.smith https://demo-page.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 2525 2349 Suspicious None
+1763371743 172.16.0.51 charlie.brown https://reddit.com/union%20select%20*%20from%20users ALLOW 200 4517 19425 Social Media None
+1763371803 10.1.1.27 alice.williams https://facebook.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 404 1071 16005 Suspicious None
+1763371863 10.1.1.28 jane.smith https://google.com/api?id=1%20AND%201=1 ALLOW 301 635 12217 Social Media None
+1763371923 10.1.1.28 edward.norton https://phishing-attempt.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 1223 16509 Phishing Phishing
+1763371983 192.168.1.101 bob.jones https://youtube.com ALLOW 302 2863 2003 Phishing None
+1763372043 172.16.0.51 jane.smith https://linkedin.com BLOCK 404 920 10723 Business None
+1763372103 10.1.1.26 diana.prince https://twitter.com BLOCK 301 2582 19348 Business None
+1763372163 10.1.1.27 jane.smith https://suspicious-domain.net ALLOW 403 3422 20084 Business Malware
+1763372223 172.16.0.50 john.doe https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 469 13400 Technology None
+1763372283 10.1.1.27 diana.prince https://amazon.com BLOCK 404 1070 3813 Phishing None
+1763372343 172.16.0.50 fiona.apple https://sample-url.com/login?user=admin%27-- BLOCK 404 4544 1372 Suspicious None
+1763372403 192.168.1.101 alice.williams https://malicious-site.com/api?id=1%20AND%201=1 BLOCK 403 2826 9921 Shopping Spyware
+1763372463 10.1.1.26 charlie.brown https://phishing-attempt.com BLOCK 404 2152 9066 Business Suspicious
+1763372523 192.168.1.100 john.doe https://reddit.com ALLOW 302 4335 6970 Entertainment None
+1763372583 10.1.1.26 fiona.apple https://demo-page.com/login?user=admin%27-- BLOCK 301 799 536 Social Media None
+1763372643 192.168.1.101 bob.jones https://test-site.com BLOCK 200 2410 8799 Social Media None
+1763372703 172.16.0.51 diana.prince https://amazon.com ALLOW 500 1589 8881 Social Media None
+1763372763 192.168.1.101 alice.williams https://google.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 1989 15689 Business None
+1763372823 10.1.1.27 alice.williams https://demo-page.com ALLOW 404 784 8428 Entertainment None
+1763372883 10.1.1.26 charlie.brown https://facebook.com ALLOW 200 4963 17581 Entertainment None
+1763372943 172.16.0.51 john.doe https://suspicious-domain.net BLOCK 200 402 4718 Technology Malware
+1763373003 10.1.1.25 fiona.apple https://example.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 500 4902 5330 Entertainment None
+1763373063 192.168.1.101 edward.norton https://facebook.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 810 7751 Entertainment Spyware
+1763373123 10.1.1.25 bob.jones https://linkedin.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 403 1521 10424 Social Media None
+1763373183 192.168.1.100 charlie.brown https://netflix.com/union%20select%20*%20from%20users ALLOW 301 4236 15052 Shopping None
+1763373243 10.1.1.28 charlie.brown https://google.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 3285 13469 Shopping None
+1763373303 192.168.1.100 charlie.brown https://amazon.com ALLOW 403 1607 5666 Shopping None
+1763373363 10.1.1.25 jane.smith https://sample-url.com BLOCK 301 1353 4294 Shopping None
+1763373423 10.1.1.26 alice.williams https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 404 1912 947 Malware None
+1763373483 172.16.0.51 diana.prince https://github.com/api?id=1%20AND%201=1 BLOCK 301 801 20107 Technology Phishing
+1763373543 10.1.1.28 john.doe https://google.com ALLOW 301 2106 7266 Suspicious None
+1763373603 10.1.1.27 edward.norton https://github.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 404 538 1892 Shopping Spyware
+1763373663 172.16.0.51 john.doe https://facebook.com/login?user=admin%27-- BLOCK 200 693 16359 Malware None
+1763373723 192.168.1.100 fiona.apple https://sample-url.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 4524 8848 Malware None
+1763373783 10.1.1.25 edward.norton https://stackoverflow.com BLOCK 404 1342 3384 Technology None
+1763373843 172.16.0.51 fiona.apple https://phishing-attempt.com/union%20select%20*%20from%20users ALLOW 200 1675 4555 Technology Suspicious
+1763373903 172.16.0.51 john.doe https://facebook.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 4070 19396 Social Media None
+1763373963 172.16.0.51 fiona.apple https://demo-page.com/union%20select%20*%20from%20users BLOCK 301 3663 11451 Social Media None
+1763374023 10.1.1.28 alice.williams https://facebook.com BLOCK 301 1743 2524 Business None
+1763374083 10.1.1.27 john.doe https://test-site.com ALLOW 404 2193 9762 Shopping None
+1763374143 10.1.1.25 alice.williams https://phishing-attempt.com/api?id=1%20AND%201=1 BLOCK 500 4648 9715 Phishing Suspicious
+1763374203 10.1.1.26 john.doe https://example.com/union%20select%20*%20from%20users ALLOW 302 4803 8013 Phishing None
+1763374263 10.1.1.25 edward.norton https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 404 2793 7933 Technology None
+1763374323 192.168.1.101 fiona.apple https://youtube.com/union%20select%20*%20from%20users BLOCK 301 3623 9978 Technology None
+1763374383 172.16.0.51 fiona.apple https://test-site.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 404 1998 20301 Phishing None
+1763374443 10.1.1.27 diana.prince https://youtube.com BLOCK 404 4562 12335 Technology None
+1763374503 192.168.1.100 diana.prince https://sample-url.com/union%20select%20*%20from%20users BLOCK 404 1268 16318 Technology None
+1763374563 192.168.1.101 jane.smith https://malware-source.org/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 200 319 14964 Social Media None
+1763374623 10.1.1.27 fiona.apple https://google.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 3202 13021 Suspicious None
+1763374683 192.168.1.101 jane.smith https://github.com BLOCK 404 4056 15320 Suspicious None
+1763374743 172.16.0.51 jane.smith https://phishing-attempt.com/api?id=1%20AND%201=1 BLOCK 403 2799 19061 Shopping Phishing
+1763374803 192.168.1.101 jane.smith https://facebook.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 404 3136 4150 Entertainment None
+1763374863 10.1.1.25 fiona.apple https://suspicious-domain.net/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 3525 13589 Phishing Phishing
+1763374923 10.1.1.27 john.doe https://amazon.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 3079 12889 Malware None
+1763374983 172.16.0.51 edward.norton https://netflix.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 500 790 17850 Malware None
+1763375043 10.1.1.26 edward.norton https://demo-page.com ALLOW 200 1926 7427 Malware None
+1763375103 10.1.1.25 diana.prince https://phishing-attempt.com/api?id=1%20AND%201=1 ALLOW 500 1323 5282 Social Media Spyware
+1763375163 10.1.1.27 bob.jones https://stackoverflow.com ALLOW 200 678 7465 Phishing None
+1763375223 172.16.0.51 fiona.apple https://github.com ALLOW 500 986 10096 Technology None
+1763375283 192.168.1.100 alice.williams https://github.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 302 4770 16760 Phishing None
+1763375343 10.1.1.27 edward.norton https://stackoverflow.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 2942 11868 Phishing None
+1763375403 192.168.1.100 jane.smith https://malicious-site.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 200 4531 8877 Shopping Malware
+1763375463 10.1.1.26 bob.jones https://suspicious-domain.net BLOCK 200 2461 15661 Shopping Trojan
+1763375523 10.1.1.27 charlie.brown https://stackoverflow.com BLOCK 301 5093 8979 Malware None
+1763375583 10.1.1.28 bob.jones https://malicious-site.com/api?id=1%20AND%201=1 BLOCK 302 3233 17449 Technology Phishing
+1763375643 172.16.0.51 bob.jones https://example.com/union%20select%20*%20from%20users BLOCK 404 2078 17251 Malware None
+1763375703 10.1.1.26 bob.jones https://twitter.com ALLOW 302 2247 17579 Malware None
+1763375763 192.168.1.100 bob.jones https://netflix.com ALLOW 302 1036 15533 Technology None
+1763375823 10.1.1.28 john.doe https://reddit.com/union%20select%20*%20from%20users BLOCK 302 1324 6762 Entertainment None
+1763375883 10.1.1.28 john.doe https://malware-source.org BLOCK 200 3673 15556 Malware None
+1763375943 10.1.1.25 jane.smith https://github.com ALLOW 302 2051 2750 Entertainment None
+1763376003 192.168.1.100 jane.smith https://sample-url.com BLOCK 200 1940 20141 Phishing None
+1763376063 192.168.1.100 alice.williams https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 200 3674 13738 Suspicious None
+1763376123 10.1.1.28 jane.smith https://stackoverflow.com ALLOW 404 3500 8981 Malware None
+1763376183 192.168.1.100 charlie.brown https://phishing-attempt.com/union%20select%20*%20from%20users BLOCK 302 1633 14288 Social Media Phishing
+1763376243 10.1.1.26 charlie.brown https://suspicious-domain.net/union%20select%20*%20from%20users ALLOW 200 2801 17242 Shopping Spyware
+1763376303 172.16.0.50 charlie.brown https://demo-page.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 302 2669 2511 Suspicious None
+1763376363 192.168.1.100 fiona.apple https://twitter.com ALLOW 200 4931 2926 Shopping None
+1763376423 10.1.1.26 diana.prince https://phishing-attempt.com BLOCK 200 2361 4200 Technology Spyware
+1763376483 10.1.1.26 fiona.apple https://suspicious-domain.net BLOCK 403 2108 17051 Suspicious Suspicious
+1763376543 172.16.0.51 john.doe https://phishing-attempt.com/api?id=1%20AND%201=1 ALLOW 403 378 20367 Shopping Trojan
+1763376603 10.1.1.26 alice.williams https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 500 2428 18242 Phishing Phishing
+1763376663 192.168.1.101 fiona.apple https://amazon.com/union%20select%20*%20from%20users BLOCK 500 4800 3152 Technology None
+1763376723 172.16.0.51 diana.prince https://sample-url.com/api?id=1%20AND%201=1 BLOCK 500 766 14931 Shopping None
+1763376783 10.1.1.26 charlie.brown https://suspicious-domain.net/login?user=admin%27-- ALLOW 200 4124 8401 Business Malware
+1763376843 10.1.1.27 alice.williams https://twitter.com BLOCK 302 961 2544 Business None
+1763376903 172.16.0.50 john.doe https://test-site.com BLOCK 500 1000 20009 Entertainment None
+1763376963 10.1.1.27 charlie.brown https://demo-page.com ALLOW 302 3403 8166 Social Media None
+1763377023 172.16.0.51 diana.prince https://youtube.com/login?user=admin%27-- ALLOW 500 1298 17942 Shopping None
+1763377083 10.1.1.26 john.doe https://google.com ALLOW 500 3201 7578 Malware None
+1763377143 172.16.0.50 edward.norton https://github.com/login?user=admin%27-- BLOCK 404 1709 18212 Shopping None
+1763377203 172.16.0.50 charlie.brown https://youtube.com BLOCK 404 834 14063 Entertainment None
+1763377263 10.1.1.28 bob.jones https://netflix.com BLOCK 500 2677 1388 Suspicious None
+1763377323 10.1.1.28 fiona.apple https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 403 1996 9561 Social Media None
+1763377383 10.1.1.25 bob.jones https://youtube.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 302 2483 2395 Suspicious None
+1763377443 10.1.1.28 alice.williams https://github.com ALLOW 302 2567 2692 Business None
+1763377503 192.168.1.100 fiona.apple https://sample-url.com/union%20select%20*%20from%20users ALLOW 301 1418 8978 Phishing None
+1763377563 10.1.1.25 alice.williams https://malware-source.org/union%20select%20*%20from%20users BLOCK 301 114 12918 Shopping None
+1763377623 192.168.1.100 diana.prince https://amazon.com/union%20select%20*%20from%20users BLOCK 403 4154 13122 Shopping None
+1763377683 10.1.1.28 john.doe https://twitter.com/login?user=admin%27-- BLOCK 404 1546 15201 Suspicious Spyware
+1763377743 192.168.1.101 diana.prince https://github.com/api?id=1%20AND%201=1 BLOCK 200 999 6660 Suspicious None
+1763377803 10.1.1.25 bob.jones https://malicious-site.com/login?user=admin%27-- ALLOW 500 4903 16618 Malware Suspicious
+1763377863 192.168.1.100 diana.prince https://netflix.com ALLOW 302 4270 1749 Entertainment None
+1763377923 10.1.1.27 bob.jones https://sample-url.com BLOCK 302 311 9641 Business None
+1763377983 10.1.1.28 edward.norton https://suspicious-domain.net/admin?id=1%27%20OR%20%271%27=%271 BLOCK 403 3005 15557 Social Media Suspicious
+1763378043 192.168.1.101 charlie.brown https://netflix.com ALLOW 404 3771 10388 Shopping None
+1763378103 192.168.1.100 john.doe https://suspicious-domain.net ALLOW 500 1368 2635 Suspicious Phishing
+1763378163 10.1.1.28 bob.jones https://suspicious-domain.net BLOCK 301 1381 4274 Shopping Trojan
+1763378223 10.1.1.25 charlie.brown https://google.com/login?user=admin%27-- BLOCK 301 830 20465 Malware None
+1763378283 10.1.1.26 john.doe https://malware-source.org/api?id=1%20AND%201=1 ALLOW 403 4500 7539 Entertainment None
+1763378343 172.16.0.51 edward.norton https://malware-source.org/login?user=admin%27-- BLOCK 500 5095 12420 Shopping None
+1763378403 172.16.0.51 alice.williams https://google.com/login?user=admin%27-- BLOCK 500 1838 19798 Technology Suspicious
+1763378463 10.1.1.25 jane.smith https://test-site.com/login?user=admin%27-- ALLOW 200 2580 12552 Technology None
+1763378523 172.16.0.50 bob.jones https://github.com/api?id=1%20AND%201=1 ALLOW 200 2343 1188 Suspicious None
+1763378583 192.168.1.101 fiona.apple https://phishing-attempt.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 200 5002 12750 Suspicious Suspicious
+1763378643 192.168.1.100 charlie.brown https://stackoverflow.com ALLOW 500 4763 12139 Malware None
+1763378703 10.1.1.26 edward.norton https://linkedin.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 301 2573 19822 Malware None
+1763378763 192.168.1.100 bob.jones https://netflix.com/search?q=test%27%20UNION%20SELECT%20null-- BLOCK 302 2368 2822 Entertainment None
+1763378823 10.1.1.25 fiona.apple https://netflix.com ALLOW 403 2596 8991 Phishing None
+1763378883 172.16.0.50 edward.norton https://amazon.com/api?id=1%20AND%201=1 ALLOW 500 1886 8442 Suspicious Spyware
+1763378943 10.1.1.26 bob.jones https://google.com/union%20select%20*%20from%20users BLOCK 403 2846 15084 Suspicious None
+1763379003 192.168.1.100 jane.smith https://linkedin.com BLOCK 500 4872 17015 Entertainment None
+1763379063 172.16.0.50 diana.prince https://reddit.com/login?user=admin%27-- ALLOW 302 603 13102 Entertainment None
+1763379123 10.1.1.28 alice.williams https://example.com BLOCK 500 4307 15142 Business None
+1763379183 10.1.1.27 bob.jones https://youtube.com/login?user=admin%27-- ALLOW 301 459 6675 Technology None
+1763379243 192.168.1.100 alice.williams https://twitter.com/admin?id=1%27%20OR%20%271%27=%271 ALLOW 403 708 9627 Technology None
+1763379303 172.16.0.51 john.doe https://malicious-site.com BLOCK 301 3849 19043 Social Media Suspicious
+1763379363 10.1.1.25 alice.williams https://test-site.com BLOCK 500 498 15870 Malware None
+1763379423 10.1.1.26 bob.jones https://reddit.com/union%20select%20*%20from%20users BLOCK 301 247 13500 Business None
+1763379483 10.1.1.28 john.doe https://facebook.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 301 3803 13936 Entertainment None
+1763379543 10.1.1.28 edward.norton https://netflix.com BLOCK 403 1932 5760 Business None
+1763379603 10.1.1.25 diana.prince https://google.com/search?q=test%27%20UNION%20SELECT%20null-- ALLOW 404 4217 7414 Technology None
+1763379663 10.1.1.26 edward.norton https://amazon.com ALLOW 301 2639 15024 Business None
+1763379723 172.16.0.51 bob.jones https://reddit.com ALLOW 302 5012 17592 Suspicious None
+1763379783 172.16.0.50 charlie.brown https://stackoverflow.com/login?user=admin%27-- BLOCK 404 4285 13110 Business None
+1763379843 172.16.0.50 bob.jones https://netflix.com/admin?id=1%27%20OR%20%271%27=%271 BLOCK 301 1890 4839 Shopping None
+1763379903 172.16.0.50 charlie.brown https://malicious-site.com/union%20select%20*%20from%20users BLOCK 302 3246 17814 Malware Suspicious
+1763379963 192.168.1.100 bob.jones https://malware-source.org ALLOW 403 2242 8101 Malware None
