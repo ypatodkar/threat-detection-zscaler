@@ -67,8 +67,8 @@ app.get('/health', (req, res) => {
 // Export app for serverless handler (if needed)
 export default app;
 
-// Start server (Railway, Render, etc. will use PORT env var)
-// Vercel/Lambda will not execute this (they use serverless handlers)
+// Start server (for local development)
+// Lambda will not execute this (uses serverless-handler.js)
 // Only start if not in serverless environment
 if (process.env.VERCEL === undefined && process.env.AWS_LAMBDA_FUNCTION_NAME === undefined) {
   const serverPort = process.env.PORT || PORT;
